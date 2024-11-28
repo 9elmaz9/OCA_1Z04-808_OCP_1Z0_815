@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concept.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/just/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/just/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mvwqYgXQJA43HRybaDkwO6PM9i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdvancedCalculator.executor": "Run",
+    "Application.BankAccount.executor": "Run",
+    "Application.BankAccountTest.executor": "Run",
+    "Application.Car.executor": "Run",
+    "Application.Car2Test.executor": "Run",
+    "Application.Car3Test.executor": "Run",
+    "Application.Car4Test.executor": "Run",
+    "Application.Car5Test.executor": "Run",
+    "Application.CarTest.executor": "Run",
+    "Application.D.executor": "Run",
+    "Application.DrugoyClass.executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
+    "Application.EmployeeTest2.executor": "Run",
+    "Application.HumanTest.executor": "Run",
+    "Application.MethodOverloading2Test.executor": "Run",
+    "Application.MethodOverloadingTest.executor": "Run",
+    "Application.RunRimeError.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.SummirovanieTest.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.Test10.executor": "Run",
+    "Application.Test11.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.Test21.executor": "Run",
+    "Application.Test3.executor": "Run",
+    "Application.TretiyClass.executor": "Run",
+    "Application.Zadacha2Test.executor": "Run",
+    "Application.ZadachaTest.executor": "Run",
+    "Application.com.just.Lesson4.hw2.StudentTest.executor": "Run",
+    "Application.com.just.Lesson6.EmployeeTest.executor": "Run",
+    "Application.com.just.Lesson7.hw.EmployeeTest.executor": "Run",
+    "Application.com.just.Lesson9.HW.Test2.executor": "Run",
+    "Application.hw8.executor": "Run",
+    "Application.les1.executor": "Run",
+    "Application.les2.executor": "Run",
+    "Application.les3.executor": "Run",
+    "Application.test6.executor": "Run",
+    "Application.test7.executor": "Run",
+    "Application.test8.executor": "Run",
+    "Application.testextra8.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ELMAZ/OCA-1Z04-808/src/main/java/com/just/Lesson7/hw",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson7\hw" />
+      <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson6\hw" />
+      <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson5" />
+      <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson6" />
+      <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson5\homework5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson10.Homework.Lesson10.p1.p2.p3.p4.D" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson10.Homework.Lesson10.p1.p2.p3.p4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson11.EmployeeTest" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson11.Student" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson9.HW.Test3" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson9.HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.just.Lesson9.HW.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson9.HW.Test2" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson9.HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.EmployeeTest" />
+        <item itemvalue="Application.D" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.com.just.Lesson9.HW.Test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-11.0.16-jbr_dcevm-11.0.16-4caba194b151-788636e5" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="" />
+      <created>1727970567870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727970567870</updated>
+      <workItem from="1727970569048" duration="3182000" />
+      <workItem from="1729024799416" duration="5890000" />
+      <workItem from="1729542861032" duration="1317000" />
+      <workItem from="1729717346442" duration="534000" />
+      <workItem from="1729805158209" duration="10882000" />
+      <workItem from="1729955741059" duration="297000" />
+      <workItem from="1730326240278" duration="1572000" />
+      <workItem from="1731277271954" duration="35580000" />
+      <workItem from="1731622915181" duration="24219000" />
+      <workItem from="1732571042168" duration="15533000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson4/BankAccount.java</url>
+          <line>11</line>
+          <properties class="com.just.Lesson4.BankAccount">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson7_1/TretiyClass.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson8/Test1.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
