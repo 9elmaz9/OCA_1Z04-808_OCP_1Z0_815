@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson11/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson11/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +108,11 @@
       <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson6" />
       <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson5\homework5" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.just.Lesson12.HW" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test12">
+  <component name="RunManager" selected="Application.Test10">
     <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson10.Homework.Lesson10.p1.p2.p3.p4.D" />
       <module name="OCA" />
@@ -151,8 +155,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson12.Test12" />
+    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson12.Test10" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
@@ -165,13 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson9.HW.Test3" />
+    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson12.Test12" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson9.HW.*" />
+          <option name="PATTERN" value="com.just.Lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test12" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.D" />
-        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -221,12 +225,23 @@
       <workItem from="1730326240278" duration="1572000" />
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
-      <workItem from="1732571042168" duration="20300000" />
+      <workItem from="1732571042168" duration="24852000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
