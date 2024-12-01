@@ -56,6 +56,7 @@
     "Application.EmployeeTest.executor": "Run",
     "Application.EmployeeTest2.executor": "Run",
     "Application.HumanTest.executor": "Run",
+    "Application.MathOperations.executor": "Run",
     "Application.MethodOverloading2Test.executor": "Run",
     "Application.MethodOverloadingTest.executor": "Run",
     "Application.Primitives.executor": "Run",
@@ -116,7 +117,7 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Primitives">
+  <component name="RunManager" selected="Application.MathOperations">
     <configuration name="BooleanLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson12.BooleanLogic" />
       <module name="OCA" />
@@ -159,6 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MathOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson1_3.MATH.MathOperations" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson1_3.MATH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Primitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson1_3.Primitives" />
       <module name="OCA" />
@@ -180,27 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.just.Lesson13.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson13.Student" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.just.Lesson13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MathOperations" />
         <item itemvalue="Application.Primitives" />
         <item itemvalue="Application.BooleanLogic" />
         <item itemvalue="Application.Employee3" />
         <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.com.just.Lesson13.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,7 @@
       <workItem from="1730326240278" duration="1572000" />
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
-      <workItem from="1732571042168" duration="32817000" />
+      <workItem from="1732571042168" duration="34983000" />
     </task>
     <servers />
   </component>
