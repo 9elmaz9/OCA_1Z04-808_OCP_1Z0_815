@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson1_3/MATH/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson1_3/MATH/MathOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson1_3/Primitives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson1_3/MATH/Primitives.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +119,7 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathOperations">
+  <component name="RunManager" selected="Application.Condition">
     <configuration name="BooleanLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson12.BooleanLogic" />
       <module name="OCA" />
@@ -132,13 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson13.Employee" />
+    <configuration name="Condition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson12.Conditions.Condition" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson13.*" />
+          <option name="PATTERN" value="com.just.Lesson12.Conditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +177,12 @@
       </method>
     </configuration>
     <configuration name="Primitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson1_3.Primitives" />
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson1_3.MATH.Primitives" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson1_3.*" />
+          <option name="PATTERN" value="com.just.Lesson1_3.MATH.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MathOperations" />
+        <item itemvalue="Application.Condition" />
         <item itemvalue="Application.Primitives" />
+        <item itemvalue="Application.MathOperations" />
         <item itemvalue="Application.BooleanLogic" />
         <item itemvalue="Application.Employee3" />
-        <item itemvalue="Application.Employee" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +232,7 @@
       <workItem from="1730326240278" duration="1572000" />
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
-      <workItem from="1732571042168" duration="34983000" />
+      <workItem from="1732571042168" duration="38865000" />
     </task>
     <servers />
   </component>

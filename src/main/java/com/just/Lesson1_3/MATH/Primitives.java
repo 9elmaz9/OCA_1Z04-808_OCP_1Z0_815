@@ -1,4 +1,4 @@
-package com.just.Lesson1_3;
+package com.just.Lesson1_3.MATH;
 
 //бит Bit (кусочек) самый маленький кусок информации для машин
 public class Primitives {
@@ -46,11 +46,26 @@ public class Primitives {
 
         System.out.println(floatNumber); //1.1234568  тут округлило раньше
 
+
+        //Char - character -  символ , 16 bit
+        char letter = 'I' + 1;   // можно прибавлять к ним J
+        char letter2 = 70;   // F
+        System.out.println(letter);
+        System.out.println(letter2);
+
+        //Спец символы
+        char newLine = '\n';  // перенос на новую строку / перевод строки
+        System.out.print("a");
+        System.out.print(newLine);
+        System.out.print("b\n");
+
+        char tab = '\t';  // табуляция 4 пробела
+        char escape = '\\';  // экранирование символов  например  слеш /
+        System.out.println(escape);
+
+
     }
 }
-
-
-
 
 
 //Какие типы данных вы бы использовали , для ответов на вопросы :
