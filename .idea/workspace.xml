@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson11/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson11/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson12/HW/Lesson12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson12/HW/Lesson12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,8 @@
     "Application.CarTest.executor": "Run",
     "Application.D.executor": "Run",
     "Application.DrugoyClass.executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.Employee3.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
     "Application.EmployeeTest2.executor": "Run",
     "Application.HumanTest.executor": "Run",
@@ -70,6 +72,7 @@
     "Application.TretiyClass.executor": "Run",
     "Application.Zadacha2Test.executor": "Run",
     "Application.ZadachaTest.executor": "Run",
+    "Application.com.just.Lesson13.Student.executor": "Run",
     "Application.com.just.Lesson4.hw2.StudentTest.executor": "Run",
     "Application.com.just.Lesson6.EmployeeTest.executor": "Run",
     "Application.com.just.Lesson7.hw.EmployeeTest.executor": "Run",
@@ -112,14 +115,14 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test10">
-    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson10.Homework.Lesson10.p1.p2.p3.p4.D" />
+  <component name="RunManager" selected="Application.Employee3">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson13.Employee" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson10.Homework.Lesson10.p1.p2.p3.p4.*" />
+          <option name="PATTERN" value="com.just.Lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,27 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson11.EmployeeTest" />
+    <configuration name="Employee3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson13.Employee3" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson11.Student" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.just.Lesson11.*" />
+          <option name="PATTERN" value="com.just.Lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,13 +179,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.just.Lesson13.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson13.Student" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Employee3" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.com.just.Lesson13.Student" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test12" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.D" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +228,7 @@
       <workItem from="1730326240278" duration="1572000" />
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
-      <workItem from="1732571042168" duration="24852000" />
+      <workItem from="1732571042168" duration="29409000" />
     </task>
     <servers />
   </component>
