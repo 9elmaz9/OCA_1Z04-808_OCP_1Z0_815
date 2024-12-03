@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson12/BooleanLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson12/BooleanLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "Application.MathOperations.executor": "Run",
     "Application.MethodOverloading2Test.executor": "Run",
     "Application.MethodOverloadingTest.executor": "Run",
+    "Application.Month.executor": "Run",
     "Application.Practice.executor": "Run",
     "Application.Primitives.executor": "Run",
     "Application.RunRimeError.executor": "Run",
@@ -75,6 +75,7 @@
     "Application.SummirovanieTest.executor": "Run",
     "Application.Switch.executor": "Run",
     "Application.Ternary.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
     "Application.Test10.executor": "Run",
     "Application.Test11.executor": "Run",
@@ -82,6 +83,8 @@
     "Application.Test2.executor": "Run",
     "Application.Test21.executor": "Run",
     "Application.Test3.executor": "Run",
+    "Application.Test4.executor": "Run",
+    "Application.Test5.executor": "Run",
     "Application.TretiyClass.executor": "Run",
     "Application.Zadacha2Test.executor": "Run",
     "Application.ZadachaTest.executor": "Run",
@@ -128,14 +131,14 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForI">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.Array.Array" />
+  <component name="RunManager" selected="Application.Test5">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson14.Test" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.*" />
+          <option name="PATTERN" value="com.just.Lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.Array.Array2" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson14.Test2" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.*" />
+          <option name="PATTERN" value="com.just.Lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.ForEach" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson14.Test3" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.*" />
+          <option name="PATTERN" value="com.just.Lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.ForI" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson14.Test4" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.*" />
+          <option name="PATTERN" value="com.just.Lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.Practice" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson14.Test5" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.*" />
+          <option name="PATTERN" value="com.just.Lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForI" />
-        <item itemvalue="Application.ForEach" />
-        <item itemvalue="Application.Array2" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +244,7 @@
       <workItem from="1730326240278" duration="1572000" />
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
-      <workItem from="1732571042168" duration="44868000" />
+      <workItem from="1732571042168" duration="50675000" />
     </task>
     <servers />
   </component>
