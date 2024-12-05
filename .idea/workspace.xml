@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson15/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson15/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/ForI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/ForI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     "Application.EmployeeTest2.executor": "Run",
     "Application.ForEach.executor": "Debug",
     "Application.ForI.executor": "Run",
+    "Application.ForPractise.executor": "Run",
     "Application.HumanTest.executor": "Run",
     "Application.Lesson14.executor": "Run",
     "Application.Lesson15.executor": "Run",
@@ -136,7 +137,35 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson15">
+  <component name="RunManager" selected="Application.ForPractise">
+    <configuration name="ForI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extra.ForI" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForPractise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extra.ForPractise" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson15.HW.Lesson15" />
       <module name="OCA" />
@@ -144,34 +173,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.just.Lesson15.HW.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson15.Test3" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.just.Lesson15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson15.Test4" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.just.Lesson15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForPractise" />
+        <item itemvalue="Application.ForI" />
         <item itemvalue="Application.Lesson15" />
         <item itemvalue="Application.Test9" />
         <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +251,7 @@
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
       <workItem from="1732571042168" duration="53806000" />
-      <workItem from="1733346438223" duration="11652000" />
+      <workItem from="1733346438223" duration="13294000" />
     </task>
     <servers />
   </component>
