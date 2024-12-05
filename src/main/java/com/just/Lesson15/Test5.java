@@ -12,7 +12,13 @@ public class Test5 {
 
 
         int b = 5;
+        //минимальная реализация
         while (b < 10) ; // это ENDLESS LOOP
         System.out.println("hey2");  // этот мы не увидим никогжа
+
+//        можно и так ENDLESS
+        //   while (b < 10) {
+        //System.out.println("bye");
+
     }
 }
