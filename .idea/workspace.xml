@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Extra/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/DoWhile.java" afterDir="false" />
-    </list>
+    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,9 +137,9 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiArray">
-    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.DoWhile" />
+  <component name="RunManager" selected="Application.Continue">
+    <configuration name="Continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extra.Continue" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
@@ -155,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.ForI" />
+    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extra.DoWhile" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
@@ -220,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Continue" />
         <item itemvalue="Application.MultiArray" />
         <item itemvalue="Application.DoWhile" />
         <item itemvalue="Application.WhileExample" />
         <item itemvalue="Application.ForPractise" />
-        <item itemvalue="Application.ForI" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +251,7 @@
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
       <workItem from="1732571042168" duration="53806000" />
-      <workItem from="1733346438223" duration="15323000" />
+      <workItem from="1733346438223" duration="15673000" />
     </task>
     <servers />
   </component>
