@@ -23,7 +23,7 @@ public class DoWhile {
 
 
         //этот бы вообще не отработал
-        while (count2 < 0) {
+        while (count2 < 0) {  // false сразу дал отворот для run
             System.out.println(count);   // without anything
         }
     }
