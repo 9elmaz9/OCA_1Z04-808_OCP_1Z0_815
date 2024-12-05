@@ -12,17 +12,22 @@ public class Car {
 
     final static int a = 5;
 
-    public  Car abc (String cvet){
-        Car c10= new Car(cvet,"v4");
+    public Car abc(String cvet) {
+        Car c10 = new Car(cvet, "v4");
         return c10;
     }
 
     public static void main(String[] args) {
         // не могу менять значение final     a = 10;
+
+        Car c = new Car("red", "V6");
+        Car c2 = c.abc("black");   // с моим обьектом с никаких изменений не произошло
+        System.out.println(c.color); // anyway red
+        // а вот с2 black
+
     }
 
 }
-
 
 
 //
