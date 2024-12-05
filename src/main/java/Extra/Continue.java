@@ -13,7 +13,7 @@ public class Continue {
                 System.out.println("RELAX "+result);
                 continue; // означает что код ниже не выполнится
             }
-            System.out.println("Спортсмен отмижается "+result);
+            System.out.println("Спортсмен отжимается "+result);
         }
 
         // continue - используется для пропуска итерации, но что б работа шла дальше
