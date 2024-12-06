@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson16/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson16/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson16/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson16/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,7 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson16.Car" />
       <module name="OCA" />
@@ -157,27 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.Continue" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson16.Test" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extra.MultiArray" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Extra.*" />
+          <option name="PATTERN" value="com.just.Lesson16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,6 +173,20 @@
     </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson16.Test1" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson16.Test2" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
@@ -222,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.TestCar" />
-        <item itemvalue="Application.Continue" />
-        <item itemvalue="Application.MultiArray" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
       <workItem from="1732571042168" duration="53806000" />
-      <workItem from="1733346438223" duration="22319000" />
+      <workItem from="1733346438223" duration="24241000" />
     </task>
     <servers />
   </component>
