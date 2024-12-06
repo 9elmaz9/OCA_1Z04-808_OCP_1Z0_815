@@ -36,6 +36,15 @@ public class Test {
         // со String  false
 
         //concat()-> String   всегда создает новый объект  и по сути это прибавление
+        String s11 = "privet,";
+        String s12 = "drug";
+        System.out.println(s11.concat(s12)); // privet,drug это новый обьект
+        System.out.println(s11+s12);  // тоже самое что и выше
+
+        System.out.println(s11); //privet,
+
+        System.out.println(s12); //drug
+
 
 
     }
