@@ -150,21 +150,7 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test1" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.just.Lesson18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test6">
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test2" />
       <module name="OCA" />
@@ -221,6 +207,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test6" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
@@ -230,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +264,7 @@
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
       <workItem from="1732571042168" duration="53806000" />
-      <workItem from="1733346438223" duration="56524000" />
+      <workItem from="1733346438223" duration="58704000" />
     </task>
     <servers />
   </component>
