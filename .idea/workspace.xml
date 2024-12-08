@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/just/Lesson18/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/just/Lesson18/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,21 +150,7 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson6.EmployeeTest" />
-      <module name="OCA" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.just.Lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test4">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test1" />
       <module name="OCA" />
@@ -194,13 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enthuware.Standart.Test20" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test3" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enthuware.Standart.*" />
+          <option name="PATTERN" value="com.just.Lesson18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,8 +193,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test3" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test4" />
+      <module name="OCA" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.Lesson18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson18.Test5" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
@@ -231,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.Test20" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +264,7 @@
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
       <workItem from="1732571042168" duration="53806000" />
-      <workItem from="1733346438223" duration="51523000" />
+      <workItem from="1733346438223" duration="56524000" />
     </task>
     <servers />
   </component>
