@@ -52,3 +52,27 @@ public class Test1 {
 //b.    abc(0, 1,2 ); work ok
 //b.    abc(3); work ok
 //b.    abc(); NO , хотя бы 1 цифра нужна
+
+//внимание вопрос, какие из вариантов выше выведут на экран число два ? Ответ А и D
+
+
+//Test2
+//Какой оутпут данного кода?
+/**
+    static void abd(int a) { // в параметре 1 агрумент более уместен этот метод для 5
+    System.out.println("Hello");
+
+    static void abc ( int ...a){  // тут от 0 до бесконечности
+        System.out.println("Bye");
+    }
+
+
+    public static void main (String[]args){
+        abc(5); Подходит под оба метода , но в данном случае предпочтение будет отдаваться наиболее точному совпадению , это первый меотд
+                    //Hello
+    }
+}*/
+/*
+*  public void abc ( int [] ... array ){  // тут от 0 до бесконечности
+        System.out.println("Bye");
+    }*/
