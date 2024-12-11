@@ -154,7 +154,7 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.just.Lesson19.Test" />
       <module name="OCA" />
@@ -169,13 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson19.Test1" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson20.Test2" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson19.*" />
+          <option name="PATTERN" value="com.just.Lesson20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,13 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson19.Test5" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson20.Test3" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson19.*" />
+          <option name="PATTERN" value="com.just.Lesson20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test7" />
         <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,7 @@
       <workItem from="1731277271954" duration="35580000" />
       <workItem from="1731622915181" duration="24219000" />
       <workItem from="1732571042168" duration="53806000" />
-      <workItem from="1733346438223" duration="77126000" />
+      <workItem from="1733346438223" duration="80808000" />
     </task>
     <servers />
   </component>
@@ -285,35 +285,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson4/BankAccount.java</url>
-          <line>11</line>
-          <properties class="com.just.Lesson4.BankAccount">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson7_1/TretiyClass.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson8/Test1.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/just/Lesson18/Test6.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
