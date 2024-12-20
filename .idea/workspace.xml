@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="" />
+    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,9 +139,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
@@ -153,6 +155,7 @@
       <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\main\java\com\just\Lesson6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src\PDF" />
       <recent name="C:\Users\ELMAZ\OCA-1Z04-808\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -276,7 +279,7 @@
       <workItem from="1733346438223" duration="86104000" />
       <workItem from="1733956672836" duration="1924000" />
       <workItem from="1734126469149" duration="4493000" />
-      <workItem from="1734646324674" duration="497000" />
+      <workItem from="1734646324674" duration="1438000" />
     </task>
     <servers />
   </component>
