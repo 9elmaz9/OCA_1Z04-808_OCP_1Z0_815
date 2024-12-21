@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +70,7 @@
     "Application.ForI.executor": "Run",
     "Application.ForPractise.executor": "Run",
     "Application.HumanTest.executor": "Run",
+    "Application.InitTest.executor": "Run",
     "Application.Lesson14.executor": "Run",
     "Application.Lesson15.executor": "Run",
     "Application.MathOperations.executor": "Run",
@@ -124,6 +123,7 @@
     "Application.les2.executor": "Run",
     "Application.les3.executor": "Run",
     "Application.test.executor": "Run",
+    "Application.test4.executor": "Run",
     "Application.test6.executor": "Run",
     "Application.test7.executor": "Run",
     "Application.test8.executor": "Run",
@@ -279,7 +279,7 @@
       <workItem from="1733346438223" duration="86104000" />
       <workItem from="1733956672836" duration="1924000" />
       <workItem from="1734126469149" duration="4493000" />
-      <workItem from="1734646324674" duration="3271000" />
+      <workItem from="1734646324674" duration="3707000" />
     </task>
     <servers />
   </component>
