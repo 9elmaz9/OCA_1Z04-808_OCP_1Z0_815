@@ -162,14 +162,14 @@
       <recent name="com.just.Lesson12.HW" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson20.Test" />
+  <component name="RunManager" selected="Application.InitTest">
+    <configuration name="InitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enthuware.Standart.one.InitTest" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.just.Lesson20.*" />
+          <option name="PATTERN" value="Enthuware.Standart.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.just.Lesson20.Test7" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.just.Lesson20.Test" />
       <module name="OCA" />
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
@@ -242,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InitTest" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test7_1" />
-        <item itemvalue="Application.Test7" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +279,7 @@
       <workItem from="1733346438223" duration="86104000" />
       <workItem from="1733956672836" duration="1924000" />
       <workItem from="1734126469149" duration="4493000" />
-      <workItem from="1734646324674" duration="1438000" />
+      <workItem from="1734646324674" duration="3271000" />
     </task>
     <servers />
   </component>
