@@ -1,6 +1,6 @@
 package Enthuware.Standart.one;
 
-public class tets59 {
+public class test59 {
 }
 //This is a Drag and Drop type question. Please click on 'Show DnD Screen' to see the question.
 
