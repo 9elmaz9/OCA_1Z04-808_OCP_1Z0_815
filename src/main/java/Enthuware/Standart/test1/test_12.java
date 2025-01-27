@@ -1,6 +1,6 @@
 package Enthuware.Standart.test1;
 
-public class tets_12 {
+public class test_12 {
 }
 /**What will be the output when the following program is run?
 

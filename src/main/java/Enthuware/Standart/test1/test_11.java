@@ -1,6 +1,6 @@
 package Enthuware.Standart.test1;
 
-public class tets_11 {
+public class test_11 {
 }
 /**
  * Given:   package strings;
