@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/DemoSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/DemoSwing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/FirstSwingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extra/FirstSwingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test55.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/Test56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test56.java" afterDir="false" />
-    </list>
+    <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,7 +284,7 @@
       <workItem from="1735165898042" duration="3963000" />
       <workItem from="1736030714370" duration="3766000" />
       <workItem from="1736548776454" duration="7043000" />
-      <workItem from="1737065103520" duration="15580000" />
+      <workItem from="1737065103520" duration="15890000" />
     </task>
     <servers />
   </component>
