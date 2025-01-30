@@ -1,4 +1,4 @@
-package Enthuware.Standart;
+package Extra;
 import javax.swing.*;
 public class DemoSwing extends JFrame{//inheriting JFrame
     JFrame f;

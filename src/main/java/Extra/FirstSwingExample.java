@@ -1,4 +1,4 @@
-package Enthuware.Standart;
+package Extra;
 import javax.swing.*;
 
 public class FirstSwingExample {

@@ -1,4 +1,4 @@
-package Enthuware.Standart;
+package Enthuware.Standart.eight;
 
 public class Test15 {
 }

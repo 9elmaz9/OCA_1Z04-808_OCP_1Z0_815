@@ -1,4 +1,4 @@
-package Enthuware.Standart;
+package Enthuware.Standart.eight;
 
 public class Test18 {
 //The probe methods are overloaded. A String (a = "hello") is passed to the probe method. Since String is a subclass of Object and there is no exact match (probe(String)), the probe(Object x) method is chosen.
