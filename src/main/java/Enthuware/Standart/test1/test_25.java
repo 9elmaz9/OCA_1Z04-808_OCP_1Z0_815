@@ -1,6 +1,6 @@
 package Enthuware.Standart.test1;
 
-public interface test_ {
+public class test_25 {
 }
 /**What will the following code print when run?
  *  public class TestClass {
