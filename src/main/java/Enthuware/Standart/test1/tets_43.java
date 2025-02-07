@@ -16,6 +16,6 @@ public class tets_43 {
 //checkList(new ArrayList(), al -> al.isEmpty());
 /*The test method of Predicate returns a boolean. So all you need for your  body part in your lambda expression is an expression that returns a boolean. isEmpty() is a valid method of ArrayList, which returns true if there are no elements in the list. Therefore, al.isEmpty() constitutes a valid body for the lambda expression in this case.*/
 
-
+ююлррр
 //checkList(new ArrayList(), al -> al.add("hello"))
 /*The add method of ArrayList returns a boolean. Further, it returns true if the list is altered because of the call to add. In this case, al.add("hello") indeed alters the list because a new element is added to the list.*/
