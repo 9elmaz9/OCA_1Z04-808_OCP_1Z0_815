@@ -114,3 +114,81 @@ void: void is a keyword and is used to specify that a method doesn’t return an
 main: main represents that the function declared is the main function. It helps JVM to identify that the declared function is the main function.
 String args[]: It stores Java command-line arguments and is an array of type java.lang.String class.
 10. What is Java String Pool?
+A Java String Pool is a place in heap memory where all the strings defined in the program are stored. A separate place in a stack is there where the variable storing the string is stored. Whenever we create a new string object, JVM checks for the presence of the object in the String pool, If String is available in the pool, the same object reference is shared with the variable, else a new object is created.
+
+11. What will happen if we declare don’t declare the main as static?
+    We can declare the main method without using static and without getting any errors. But, the main method will not be treated as the entry point to the application or the program.
+
+12. What are Packages in Java?
+    Packages in Java can be defined as the grouping of related types of classes, interfaces, etc providing access to protection and namespace management.
+
+13. Why Packages are used?
+    Packages are used in Java in order to prevent naming conflicts, control access, and make searching/locating and usage of classes, interfaces, etc easier.
+
+14. What are the advantages of Packages in Java?
+    There are various advantages of defining packages in Java.
+
+Packages avoid name clashes.
+The Package provides easier access control.
+We can also have the hidden classes that are not visible outside and are used by the package.
+It is easier to locate the related classes.
+15. How many types of packages are there in Java?
+    There are two types of packages in Java
+
+User-defined packages
+Build In packages
+16. Explain different data types in Java.
+    There are 2 types of data types in Java as mentioned below:
+
+Primitive Data Type
+Non-Primitive Data Type or Object Data type
+Primitive Data Type: Primitive data are single values with no special capabilities. There are 8 primitive data types:
+
+boolean: stores value true or false
+byte: stores an 8-bit signed two’s complement integer
+char: stores a single 16-bit Unicode character
+short: stores a 16-bit signed two’s complement integer
+int: stores a 32-bit signed two’s complement integer
+long: stores a 64-bit two’s complement integer
+float: stores a single-precision 32-bit IEEE 754 floating-point
+double: stores a double-precision 64-bit IEEE 754 floating-point
+Non-Primitive Data Type: Reference Data types will contain a memory address of the variable’s values because it is not able to directly store the values in the memory. Types of Non-Primitive are mentioned below:
+
+Strings
+Array
+Class
+Object
+Interface
+17. When a byte datatype is used?
+    A byte is an 8-bit signed two-complement integer. The minimum value supported by bytes is -128 and 127 is the maximum value. It is used in conditions where we need to save memory and the limit of numbers needed is between -128 to 127.
+
+18. Can we declare Pointer in Java?
+    No, Java doesn’t provide the support of Pointer. As Java needed to be more secure because which feature of the pointer is not provided in Java.
+
+19. What is the default value of byte datatype in Java?
+    The default value of the byte datatype in Java is 0.
+
+20. What is the default value of float and double datatype in Java?
+    The default value of the float is 0.0f and of double is 0.0d in Java.
+
+21. What is the Wrapper class in Java?
+    Wrapper, in general, is referred to a larger entity that encapsulates a smaller entity. Here in Java, the wrapper class is an object class that encapsulates the primitive data types.
+
+The primitive data types are the ones from which further data types could be created. For example, integers can further lead to the construction of long, byte, short, etc. On the other hand, the string cannot, hence it is not primitive.
+
+Getting back to the wrapper class, Java contains 8 wrapper classes. They are Boolean, Byte, Short, Integer, Character, Long, Float, and Double. Further, custom wrapper classes can also be created in Java which is similar to the concept of Structure in the C programming language. We create our own wrapper class with the required data types.
+
+22. Why do we need wrapper classes?
+    The wrapper class is an object class that encapsulates the primitive data types, and we need them for the following reasons:
+
+Wrapper classes are final and immutable
+Provides methods like valueOf(), parseInt(), etc.
+It provides the feature of autoboxing and unboxing.
+
+23. Differentiate between instance and local variables.
+    Instance Variable                                                   Local Variable 
+Declared outside the method, directly invoked by the method.      Declared within the method.
+
+Has a default value.                                                 No default value
+
+It can be used throughout the class.                               The scope is limited to the method.
