@@ -47,6 +47,7 @@ On my way to becoming a **Java certified professional**! No stress, just progres
 
 ## 3. What is the difference between Java and C++?
 **Answer:**
+
 | Feature               | Java                                     |              C++                     |
 |-----------------------|-----------------------------------------|--------------------------------------|
 | Platform Independence | Yes (via JVM)                            |   No (compiled to machine code)      |
@@ -152,3 +153,73 @@ class Child extends Parent {
     }
 }
 ```
+
+## 11. What is an interface in Java?
+**Answer:**
+An interface in Java is a reference type that defines abstract methods that must be implemented by a class. Interfaces support multiple inheritance.
+Example:
+```java
+interface Animal {
+    void makeSound();
+}
+
+class Dog implements Animal {
+    public void makeSound() {
+        System.out.println("Bark");
+    }
+}
+```
+
+## 12. What is an abstract class in Java?
+**Answer:**
+An abstract class in Java is a class that cannot be instantiated and may contain abstract methods (methods without implementation).
+Example:
+```java
+abstract class Vehicle {
+    abstract void start();
+}
+
+class Car extends Vehicle {
+    void start() {
+        System.out.println("Car starting...");
+    }
+}
+```
+
+## 13. What is the difference between an abstract class and an interface?
+**Answer:**
+
+| **Feature**                 | Abstract Class | Interface |
+|---------|---------------|-----------|
+| Methods | Can have both abstract and concrete methods | Only abstract methods (Java 7), can have default/static methods (Java 8) |
+| Variables | Can have instance variables | Only public, static, and final variables |
+| Multiple Inheritance | Not supported | Supported |
+| Constructor | Can have a constructor | Cannot have a constructor |
+
+## 14. What is the `final` keyword in Java?
+**Answer:**
+The `final` keyword is used to declare constants, prevent method overriding, and prevent inheritance.
+- **Final variable**: Cannot be reassigned.
+- **Final method**: Cannot be overridden.
+- **Final class**: Cannot be inherited.
+  Example:
+```java
+final class Constants {
+    static final double PI = 3.14159;
+}
+```
+
+## 15. What is a static variable and a static method?
+**Answer:**
+A static variable/method belongs to the class rather than an instance of the class.
+Example:
+```java
+class Example {
+    static int count = 0;
+    static void show() {
+        System.out.println("Static method");
+    }
+}
+```
+
+
