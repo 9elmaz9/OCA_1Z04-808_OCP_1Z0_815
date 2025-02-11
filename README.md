@@ -285,3 +285,74 @@ Java provides four types of access modifiers:
 
 ---
 
+## 21. What is the difference between `final`, `finally`, and `finalize` in Java?
+**Answer:**
+- **`final`**: Used for variables (makes them constants), methods (prevents overriding), and classes (prevents inheritance).
+- **`finally`**: A block used in exception handling that always executes, regardless of whether an exception occurs or not.
+- **`finalize()`**: A method that is called by the garbage collector before an object is removed from memory.
+  Example:
+```java
+class Example {
+    protected void finalize() {
+        System.out.println("Finalize method called");
+    }
+}
+```
+
+## 22. What is the difference between checked and unchecked exceptions?
+**Answer:**
+- **Checked Exceptions**: Exceptions that are checked at compile time (e.g., `IOException`, `SQLException`). Must be handled using `try-catch` or `throws`.
+- **Unchecked Exceptions**: Exceptions that occur at runtime (e.g., `NullPointerException`, `ArithmeticException`).
+  Example:
+```java
+try {
+    FileReader file = new FileReader("test.txt");
+} catch (IOException e) {
+    System.out.println("File not found!");
+}
+```
+
+## 23. What is the difference between throw and throws?
+**Answer:**
+- **`throw`**: Used to explicitly throw an exception.
+- **`throws`**: Declares exceptions that a method might throw.
+  Example:
+```java
+void checkAge(int age) throws ArithmeticException {
+    if (age < 18) {
+        throw new ArithmeticException("Not allowed");
+    }
+}
+```
+
+## 24. What are the different ways to create a thread in Java?
+**Answer:**
+1. **Extending the `Thread` class**:
+```java
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread running");
+    }
+}
+```
+2. **Implementing the `Runnable` interface**:
+```java
+class MyRunnable implements Runnable {
+    public void run() {
+        System.out.println("Thread running");
+    }
+}
+```
+
+## 25. What is the difference between `sleep()` and `wait()` in Java?
+**Answer:**
+- **`sleep()`**: A method in `Thread` that pauses execution for a specified time but does not release the lock.
+- **`wait()`**: A method in `Object` that pauses execution until `notify()` or `notifyAll()` is called, and releases the lock.
+  Example:
+```java
+synchronized(obj) {
+    obj.wait(); // Releases lock and waits
+    obj.notify(); // Wakes up waiting thread
+}
+```
+
