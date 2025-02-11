@@ -356,3 +356,85 @@ synchronized(obj) {
 }
 ```
 
+## 26. What is the difference between `synchronized` and `volatile` in Java?
+**Answer:**
+- **`synchronized`**: Ensures that only one thread can access a block of code or method at a time. It provides locking to avoid race conditions.
+- **`volatile`**: Ensures visibility of changes to a variable across threads but does not provide locking.
+  Example:
+```java
+class SharedResource {
+    private volatile boolean flag = true;
+    void updateFlag() {
+        flag = false; // Other threads immediately see the change
+    }
+}
+```
+
+## 27. What are daemon threads in Java?
+**Answer:**
+Daemon threads are background threads that run in the JVM and terminate when all user threads are completed. They are used for tasks like garbage collection.
+Example:
+```java
+class MyDaemonThread extends Thread {
+    public void run() {
+        while (true) {
+            System.out.println("Daemon running");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyDaemonThread daemonThread = new MyDaemonThread();
+        daemonThread.setDaemon(true);
+        daemonThread.start();
+    }
+}
+```
+
+## 28. What is the difference between `ArrayList` and `LinkedList`?
+**Answer:**
+
+| Feature | `ArrayList` | `LinkedList` |
+|---------|------------|-------------|
+| Implementation | Uses a dynamic array | Uses a doubly linked list |
+| Access time | Fast (O(1) for `get()`) | Slow (O(n) for `get()`) |
+| Insertion/Deletion | Slow (shifting elements required) | Fast (modifying pointers) |
+| Memory Usage | Less (stores elements in contiguous memory) | More (stores extra references) |
+Example:
+```java
+List<String> list = new ArrayList<>(); // or new LinkedList<>();
+```
+
+## 29. What is a lambda expression in Java?
+**Answer:**
+Lambda expressions provide a concise way to implement functional interfaces in Java.
+Example:
+```java
+@FunctionalInterface
+interface MyFunction {
+    void display();
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyFunction func = () -> System.out.println("Hello from Lambda");
+        func.display();
+    }
+}
+```
+
+## 30. What is a functional interface in Java?
+**Answer:**
+A functional interface is an interface that contains exactly one abstract method. It can have multiple default or static methods.
+Example:
+```java
+@FunctionalInterface
+interface MyInterface {
+    void execute();
+    default void show() {
+        System.out.println("Default method");
+    }
+}
+```
+
