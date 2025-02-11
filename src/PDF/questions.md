@@ -280,3 +280,5 @@ Number of objects created are 3
 27. Explain the difference between instance variable and a class variable.
     Instance Variable: A class variable without a static modifier known as an instance variable is typically shared by all instances of the class. These variables can have distinct values among several objects. The contents of an instance variable are completely independent of one object instance from another because they are related to a specific object instance of the class.
 
+
+
