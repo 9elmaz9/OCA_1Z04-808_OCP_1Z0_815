@@ -192,3 +192,91 @@ Declared outside the method, directly invoked by the method.      Declared withi
 Has a default value.                                                 No default value
 
 It can be used throughout the class.                               The scope is limited to the method.
+
+
+24. What are the default values assigned to variables and instances in Java?
+    In Java When we haven’t initialized the instance variables then the compiler initializes them with default values. The default values for instances and variables depend on their data types. Some common types of default data types are:
+
+The default value for numeric types (byte, short, int, long, float, and double) is 0.
+The default value for the boolean type is false.
+The default value for object types (classes, interfaces, and arrays) is null.
+The null character, “u0000, ” is the default value for the char type.
+
+Example:
+
+// Java Program to demonstrate use of default values
+import java.io.*;
+class GFG {
+// static values
+static byte b;
+static int i;
+static long l;
+static short s;
+static boolean bool;
+static char c;
+static String str;
+static Object object;
+static float f;
+static double d;
+static int[] Arr;
+public static void main(String[] args)
+{
+// byte value
+System.out.println("byte value" + b);
+// short value
+System.out.println("short value" + s);
+// int value
+System.out.println("int value" + i);
+// long value
+System.out.println("long value" + l);
+System.out.println("boolean value" + bool);
+System.out.println("char value" + c);
+System.out.println("float value" + f);
+System.out.println("double value" + d);
+System.out.println("string value" + str);
+System.out.println("object value" + object);
+System.out.println("Array value" + Arr);
+}
+}
+
+Output:
+
+byte value0
+short value0
+int value0
+long value0
+boolean valuefalse
+char value
+float value0.0
+double value0.0
+string valuenull
+object valuenull
+Array valuenull
+
+25. What is a Class Variable?
+    In Java, a class variable (also known as a static variable) is a variable that is declared within a class but outside of any method, constructor, or block. Class variables are declared with the static keyword, and they are shared by all instances (objects) of the class as well as by the class itself. No matter how many objects are derived from a class, each class variable would only exist once.
+
+Example: // Java program to demonstrate use of Clas Variable
+class GFG {
+public static int ctr = 0;
+public GFG() { ctr++; }
+public static void main(String[] args)
+{
+GFG obj1 = new GFG();
+GFG obj2 = new GFG();
+GFG obj3 = new GFG();
+System.out.println("Number of objects created are "
++ GFG.ctr);
+}
+}
+
+Output
+Number of objects created are 3
+
+
+26. What is the default value stored in Local Variables?
+    There is no default value stored with local variables. Also, primitive variables and objects don’t have any default values.
+
+27. Explain the difference between instance variable and a class variable.
+    Instance Variable: A class variable without a static modifier known as an instance variable is typically shared by all instances of the class. These variables can have distinct values among several objects. The contents of an instance variable are completely independent of one object instance from another because they are related to a specific object instance of the class.
+
