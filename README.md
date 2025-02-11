@@ -223,3 +223,65 @@ class Example {
 ```
 
 
+## 16. What is the `super` keyword in Java?
+**Answer:**
+The `super` keyword is used to refer to the immediate parent class in Java. It can be used to call parent class constructors, methods, or access parent class variables.
+Example:
+```java
+class Parent {
+    void display() {
+        System.out.println("Parent class");
+    }
+}
+
+class Child extends Parent {
+    void display() {
+        super.display(); // Calls parent class method
+        System.out.println("Child class");
+    }
+}
+```
+
+## 17. What is the `this` keyword in Java?
+**Answer:**
+The `this` keyword is a reference variable that refers to the current object. It is used to differentiate between instance variables and parameters with the same name.
+Example:
+```java
+class Example {
+    int x;
+    Example(int x) {
+        this.x = x; // Refers to the instance variable
+    }
+}
+```
+
+## 18. What is an immutable class in Java?
+**Answer:**
+An immutable class is a class whose objects cannot be modified after creation. The `String` class is a prime example.
+Example:
+```java
+final class ImmutableClass {
+    private final int value;
+    ImmutableClass(int value) {
+        this.value = value;
+    }
+    public int getValue() {
+        return value;
+    }
+}
+```
+
+## 19. What is garbage collection in Java?
+**Answer:**
+Garbage collection in Java is the process of automatically reclaiming memory occupied by unused objects to prevent memory leaks. It is performed by the JVM’s Garbage Collector (GC).
+
+## 20. What are access modifiers in Java?
+**Answer:**
+Java provides four types of access modifiers:
+- **Private**: Accessible only within the class.
+- **Default (no modifier)**: Accessible within the same package.
+- **Protected**: Accessible within the same package and subclasses.
+- **Public**: Accessible from anywhere.
+
+---
+
