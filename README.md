@@ -579,3 +579,62 @@ Map<String, String> map = new HashMap<>(); // or new Hashtable<>();
 ```
 
 
+## 41. What is the difference between fail-fast and fail-safe iterators?
+**Answer:**
+- **Fail-fast iterators**: Throw `ConcurrentModificationException` if the collection is modified while iterating (e.g., `ArrayList`, `HashMap`).
+- **Fail-safe iterators**: Do not throw exceptions as they work on a copy of the collection (e.g., `CopyOnWriteArrayList`).
+  Example:
+```java
+List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
+Iterator<Integer> itr = list.iterator();
+while (itr.hasNext()) {
+    list.add(4); // Throws ConcurrentModificationException
+}
+```
+
+## 42. What is the difference between deep cloning and shallow cloning in Java?
+**Answer:**
+- **Shallow Clone**: Copies field values, but references point to the same objects.
+- **Deep Clone**: Creates completely new instances of referenced objects.
+  Example:
+```java
+class Example implements Cloneable {
+    int value;
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone(); // Shallow copy
+    }
+}
+```
+
+## 43. What is a ConcurrentHashMap in Java?
+**Answer:**
+`ConcurrentHashMap` is a thread-safe variant of `HashMap` that allows concurrent access without locking the entire map.
+Example:
+```java
+Map<String, Integer> map = new ConcurrentHashMap<>();
+map.put("A", 1);
+```
+
+## 44. What is the purpose of the transient keyword in Java?
+**Answer:**
+The `transient` keyword prevents a variable from being serialized.
+Example:
+```java
+class Example implements Serializable {
+    transient int tempData; // Will not be serialized
+    int normalData;
+}
+```
+
+## 45. What is the difference between Executor and ExecutorService?
+**Answer:**
+- **Executor**: A simple interface for executing tasks.
+- **ExecutorService**: A more advanced interface that provides lifecycle control of the task execution.
+  Example:
+```java
+ExecutorService executor = Executors.newFixedThreadPool(2);
+executor.submit(() -> System.out.println("Task executed"));
+executor.shutdown();
+```
+
+
