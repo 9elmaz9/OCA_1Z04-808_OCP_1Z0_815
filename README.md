@@ -704,3 +704,57 @@ threadLocal.set(100);
 System.out.println(threadLocal.get());
 ```
 
+## 51. What is the difference between `Future` and `CompletableFuture` in Java?
+**Answer:**
+- **`Future`**: Represents the result of an asynchronous computation but lacks chaining and exception handling.
+- **`CompletableFuture`**: Provides methods for functional-style chaining and handling exceptions.
+  Example:
+```java
+CompletableFuture.supplyAsync(() -> "Hello")
+    .thenApply(str -> str + " World")
+    .thenAccept(System.out::println);
+```
+
+## 52. What is the difference between `ForkJoinPool` and `ExecutorService`?
+**Answer:**
+- **`ExecutorService`**: Manages a fixed number of threads for tasks.
+- **`ForkJoinPool`**: Designed for parallelism and recursive task splitting.
+  Example:
+```java
+ForkJoinPool pool = new ForkJoinPool();
+pool.submit(() -> System.out.println("Parallel execution"));
+```
+
+## 53. What is the difference between `readResolve()` and `writeReplace()` in serialization?
+**Answer:**
+- **`writeReplace()`**: Called before serialization to replace the object.
+- **`readResolve()`**: Called after deserialization to replace the object.
+  Example:
+```java
+protected Object readResolve() {
+    return INSTANCE; // Ensures singleton after deserialization
+}
+```
+
+## 54. What is the difference between `Stream.forEach()` and `Collection.forEach()`?
+**Answer:**
+- **`Stream.forEach()`**: Processes elements in parallel if used with a parallel stream.
+- **`Collection.forEach()`**: Works sequentially on elements.
+  Example:
+```java
+List<String> list = Arrays.asList("A", "B", "C");
+list.forEach(System.out::println); // Collection.forEach()
+list.stream().forEach(System.out::println); // Stream.forEach()
+```
+
+## 55. What is the difference between `Predicate`, `Function`, and `Consumer` in Java?
+**Answer:**
+- **`Predicate<T>`**: Returns a boolean (`test(T t)`).
+- **`Function<T, R>`**: Transforms input to output (`apply(T t)`).
+- **`Consumer<T>`**: Performs an action (`accept(T t)`).
+  Example:
+```java
+Predicate<Integer> isEven = x -> x % 2 == 0;
+Function<Integer, String> toString = x -> "Number: " + x;
+Consumer<String> print = System.out::println;
+```
