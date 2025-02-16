@@ -438,3 +438,72 @@ interface MyInterface {
 }
 ```
 
+## 31. What is the Stream API in Java?
+**Answer:**
+The Stream API provides functional-style operations on collections and is used for processing data efficiently.
+Example:
+```java
+import java.util.*;
+import java.util.stream.*;
+
+public class Main {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        numbers.stream()
+               .filter(n -> n % 2 == 0)
+               .forEach(System.out::println); // Prints even numbers
+    }
+}
+```
+
+## 32. What is the difference between `map()` and `flatMap()` in Java Streams?
+**Answer:**
+- **`map()`**: Transforms elements one-to-one.
+- **`flatMap()`**: Flattens nested structures and then applies a transformation.
+  Example:
+```java
+List<String> words = Arrays.asList("Hello", "World");
+List<String> result = words.stream()
+                           .map(w -> w.split("")) // Returns Stream<String[]>
+                           .flatMap(Arrays::stream) // Returns Stream<String>
+                           .collect(Collectors.toList());
+```
+
+## 33. What is an Optional in Java?
+**Answer:**
+`Optional` is a container object that helps avoid `NullPointerException` by providing methods to handle values safely.
+Example:
+```java
+Optional<String> name = Optional.ofNullable(null);
+System.out.println(name.orElse("Default Name")); // Prints "Default Name"
+```
+
+## 34. What is the difference between `Comparator` and `Comparable`?
+**Answer:**
+| Feature | `Comparable` | `Comparator` |
+|---------|-------------|-------------|
+| Purpose | Defines natural ordering of objects | Allows custom sorting |
+| Interface method | `compareTo(T o)` | `compare(T o1, T o2)` |
+| Modifications | Implemented within the class | Defined externally |
+Example:
+```java
+class Student implements Comparable<Student> {
+    int age;
+    public int compareTo(Student s) { return Integer.compare(this.age, s.age); }
+}
+```
+
+## 35. What is the difference between deep copy and shallow copy?
+**Answer:**
+- **Shallow Copy**: Copies object references, changes to the original affect the copy.
+- **Deep Copy**: Creates a completely new copy of objects, changes to the original do not affect the copy.
+  Example:
+```java
+class Example implements Cloneable {
+    int value;
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone(); // Shallow copy
+    }
+}
+```
+
