@@ -506,4 +506,76 @@ class Example implements Cloneable {
     }
 }
 ```
+## 36. What is Reflection in Java?
+**Answer:**
+Reflection is a feature that allows inspection and manipulation of classes, methods, and fields at runtime.
+Example:
+```java
+import java.lang.reflect.*;
+
+class Example {
+    private String message = "Hello";
+}
+
+public class ReflectionDemo {
+    public static void main(String[] args) throws Exception {
+        Example obj = new Example();
+        Field field = Example.class.getDeclaredField("message");
+        field.setAccessible(true);
+        System.out.println(field.get(obj)); // Prints "Hello"
+    }
+}
+```
+
+## 37. What is the difference between `try-with-resources` and a regular `try-catch` block?
+**Answer:**
+- **`try-with-resources`**: Automatically closes resources after execution.
+- **Regular `try-catch`**: Requires explicit closing of resources.
+  Example:
+```java
+try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
+    System.out.println(br.readLine());
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+## 38. What are the different types of memory areas allocated by JVM?
+**Answer:**
+- **Method Area**: Stores class metadata, static variables, and method code.
+- **Heap**: Stores objects and class instances.
+- **Stack**: Stores method calls and local variables.
+- **PC Register**: Stores the address of the currently executing instruction.
+- **Native Method Stack**: Stores native method calls.
+
+## 39. What is a singleton class in Java?
+**Answer:**
+A singleton class ensures that only one instance of the class exists.
+Example:
+```java
+class Singleton {
+    private static Singleton instance;
+    private Singleton() {}
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+```
+
+## 40. What is the difference between HashMap and HashTable?
+**Answer:**
+
+| Feature | `HashMap` | `HashTable` |
+|---------|----------|-------------|
+| Synchronization | Not synchronized | Synchronized |
+| Performance | Faster | Slower |
+| Null keys/values | Allows one null key, multiple null values | Does not allow null keys/values |
+Example:
+```java
+Map<String, String> map = new HashMap<>(); // or new Hashtable<>();
+```
+
 
