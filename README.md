@@ -637,4 +637,70 @@ executor.submit(() -> System.out.println("Task executed"));
 executor.shutdown();
 ```
 
+## 46. What is the difference between Callable and Runnable in Java?
+**Answer:**
+- **Runnable**: Does not return a result and cannot throw checked exceptions.
+- **Callable**: Returns a result and can throw checked exceptions.
+  Example:
+```java
+Callable<Integer> task = () -> {
+    return 42;
+};
+Future<Integer> future = Executors.newSingleThreadExecutor().submit(task);
+System.out.println(future.get());
+```
+
+## 47. What is the difference between synchronized block and synchronized method?
+**Answer:**
+- **Synchronized Method**: Locks the entire method, preventing multiple threads from executing it simultaneously.
+- **Synchronized Block**: Locks only a specific block of code inside a method.
+  Example:
+```java
+class Example {
+    synchronized void syncMethod() {
+        // Locks entire method
+    }
+    void syncBlock() {
+        synchronized (this) {
+            // Locks only this block
+        }
+    }
+}
+```
+
+## 48. What is a ReentrantLock in Java?
+**Answer:**
+`ReentrantLock` is a more flexible and powerful alternative to synchronized methods and blocks. It allows locking with more control.
+Example:
+```java
+ReentrantLock lock = new ReentrantLock();
+lock.lock();
+try {
+    // Critical section
+} finally {
+    lock.unlock();
+}
+```
+
+## 49. What is the difference between wait() and notify() in Java?
+**Answer:**
+- **wait()**: Makes the thread wait until another thread calls `notify()`.
+- **notify()**: Wakes up a single waiting thread.
+  Example:
+```java
+synchronized (obj) {
+    obj.wait(); // Releases lock and waits
+    obj.notify(); // Wakes up waiting thread
+}
+```
+
+## 50. What is ThreadLocal in Java?
+**Answer:**
+`ThreadLocal` is a mechanism to create variables that are local to a thread.
+Example:
+```java
+ThreadLocal<Integer> threadLocal = new ThreadLocal<>();
+threadLocal.set(100);
+System.out.println(threadLocal.get());
+```
 
