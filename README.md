@@ -758,3 +758,58 @@ Predicate<Integer> isEven = x -> x % 2 == 0;
 Function<Integer, String> toString = x -> "Number: " + x;
 Consumer<String> print = System.out::println;
 ```
+## 56. What is the difference between `peek()` and `map()` in Java Streams?
+**Answer:**
+- **`map()`**: Transforms each element and returns a new stream.
+- **`peek()`**: Performs an intermediate operation without modifying elements.
+  Example:
+```java
+List<String> result = Stream.of("a", "b", "c")
+    .peek(System.out::println) // Does not modify elements
+    .map(String::toUpperCase) // Transforms elements
+    .collect(Collectors.toList());
+```
+
+## 57. What is the difference between `flatMap()` and `map()` in Streams?
+**Answer:**
+- **`map()`**: Transforms elements individually.
+- **`flatMap()`**: Flattens nested structures before transformation.
+  Example:
+```java
+List<List<String>> list = Arrays.asList(
+    Arrays.asList("A", "B"), Arrays.asList("C", "D")
+);
+List<String> flatList = list.stream()
+    .flatMap(Collection::stream)
+    .collect(Collectors.toList());
+```
+
+## 58. What is an enum in Java?
+**Answer:**
+An enum is a special class that represents a fixed set of constants.
+Example:
+```java
+enum Day {
+    SUNDAY, MONDAY, TUESDAY;
+}
+Day today = Day.MONDAY;
+```
+
+## 59. What is `AtomicInteger` in Java?
+**Answer:**
+`AtomicInteger` is a thread-safe integer class used in concurrent programming.
+Example:
+```java
+AtomicInteger count = new AtomicInteger(0);
+count.incrementAndGet(); // Increments atomically
+```
+
+## 60. What is the difference between `StringBuffer` and `StringBuilder`?
+**Answer:**
+- **`StringBuffer`**: Thread-safe and synchronized.
+- **`StringBuilder`**: Not synchronized, but faster for single-threaded applications.
+  Example:
+```java
+StringBuilder sb = new StringBuilder("Hello");
+sb.append(" World");
+```
