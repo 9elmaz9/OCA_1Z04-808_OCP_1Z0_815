@@ -924,3 +924,55 @@ BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
 queue.put(1); // Inserts element, blocking if full
 queue.take(); // Retrieves element, blocking if empty
 ```
+## 71. What is `ThreadPoolExecutor` in Java?
+**Answer:**
+`ThreadPoolExecutor` is a flexible implementation of the `ExecutorService` that manages a pool of worker threads.
+Example:
+```java
+ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 5, 60L, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
+executor.execute(() -> System.out.println("Task executed"));
+executor.shutdown();
+```
+
+## 72. What is the difference between `ScheduledExecutorService` and `Timer` in Java?
+**Answer:**
+- **`ScheduledExecutorService`**: More flexible, supports periodic and delayed execution with thread pooling.
+- **`Timer`**: Older, less flexible, single-threaded.
+  Example:
+```java
+ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+scheduler.schedule(() -> System.out.println("Task executed"), 5, TimeUnit.SECONDS);
+```
+
+## 73. What is the difference between `CopyOnWriteArrayList` and `ArrayList`?
+**Answer:**
+- **`CopyOnWriteArrayList`**: Thread-safe, creates a copy on modification, best for read-heavy operations.
+- **`ArrayList`**: Not thread-safe, uses a single backing array.
+  Example:
+```java
+List<String> list = new CopyOnWriteArrayList<>();
+list.add("A");
+```
+
+## 74. What is a `PriorityQueue` in Java?
+**Answer:**
+A `PriorityQueue` is a queue that orders elements according to their natural ordering or a custom comparator.
+Example:
+```java
+PriorityQueue<Integer> queue = new PriorityQueue<>();
+queue.add(10);
+queue.add(5);
+queue.add(20);
+System.out.println(queue.poll()); // Prints 5
+```
+
+## 75. What is a `Deque` in Java?
+**Answer:**
+A `Deque` (double-ended queue) allows insertion and removal from both ends.
+Example:
+```java
+Deque<Integer> deque = new ArrayDeque<>();
+deque.addFirst(1);
+deque.addLast(2);
+System.out.println(deque.pollFirst()); // Prints 1
+```
