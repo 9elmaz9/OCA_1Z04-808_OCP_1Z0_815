@@ -872,3 +872,55 @@ Example:
 ```java
 PhantomReference<Object> phantomRef = new PhantomReference<>(new Object(), new ReferenceQueue<>());
 ```
+## 66. What is a `CountDownLatch` in Java?
+**Answer:**
+A `CountDownLatch` is used to make a thread wait until other threads complete a set of operations.
+Example:
+```java
+CountDownLatch latch = new CountDownLatch(3);
+new Thread(() -> {
+    latch.countDown();
+}).start();
+latch.await(); // Main thread waits until latch reaches 0
+```
+
+## 67. What is a `CyclicBarrier` in Java?
+**Answer:**
+A `CyclicBarrier` allows multiple threads to wait for each other before continuing execution.
+Example:
+```java
+CyclicBarrier barrier = new CyclicBarrier(3, () -> System.out.println("All threads reached the barrier"));
+new Thread(() -> {
+    barrier.await();
+}).start();
+```
+
+## 68. What is a `Semaphore` in Java?
+**Answer:**
+A `Semaphore` controls access to resources by allowing only a fixed number of threads to access a resource simultaneously.
+Example:
+```java
+Semaphore semaphore = new Semaphore(2);
+semaphore.acquire(); // Acquires a permit
+semaphore.release(); // Releases a permit
+```
+
+## 69. What is a `ReentrantReadWriteLock` in Java?
+**Answer:**
+A `ReentrantReadWriteLock` provides separate locks for read and write operations to improve performance in concurrent applications.
+Example:
+```java
+ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
+lock.readLock().lock();
+lock.readLock().unlock();
+```
+
+## 70. What is a `BlockingQueue` in Java?
+**Answer:**
+A `BlockingQueue` is a queue that blocks threads when it is full (on insertion) or empty (on retrieval).
+Example:
+```java
+BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
+queue.put(1); // Inserts element, blocking if full
+queue.take(); // Retrieves element, blocking if empty
+```
