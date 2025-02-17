@@ -813,3 +813,62 @@ count.incrementAndGet(); // Increments atomically
 StringBuilder sb = new StringBuilder("Hello");
 sb.append(" World");
 ```
+
+## 61. What is the difference between `Serializable` and `Externalizable` in Java?
+**Answer:**
+- **`Serializable`**: Uses default serialization mechanism.
+- **`Externalizable`**: Allows custom serialization logic by implementing `writeExternal()` and `readExternal()`.
+  Example:
+```java
+class Example implements Externalizable {
+    private String data;
+    public void writeExternal(ObjectOutput out) throws IOException {
+        out.writeObject(data);
+    }
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+        data = (String) in.readObject();
+    }
+}
+```
+
+## 62. What is a SoftReference in Java?
+**Answer:**
+A `SoftReference` allows an object to be garbage collected only when memory is low, improving efficiency.
+Example:
+```java
+SoftReference<String> softRef = new SoftReference<>(new String("Soft Reference"));
+System.out.println(softRef.get());
+```
+
+## 63. What is the difference between `WeakHashMap` and `HashMap`?
+**Answer:**
+- **`WeakHashMap`**: Uses weak references for keys, allowing them to be garbage collected.
+- **`HashMap`**: Uses strong references, preventing garbage collection.
+  Example:
+```java
+Map<Object, String> map = new WeakHashMap<>();
+Object key = new Object();
+map.put(key, "Value");
+key = null; // Key can now be garbage collected
+```
+
+## 64. What is the difference between `LinkedHashMap` and `TreeMap`?
+**Answer:**
+| Feature | `LinkedHashMap` | `TreeMap` |
+|---------|----------------|-----------|
+| Order | Maintains insertion order | Maintains sorted order |
+| Performance | Faster for iteration | Slower for insertion/deletion |
+Example:
+```java
+Map<Integer, String> map = new TreeMap<>();
+map.put(2, "B");
+map.put(1, "A");
+```
+
+## 65. What is `PhantomReference` in Java?
+**Answer:**
+A `PhantomReference` allows an object to be garbage collected but provides a callback before finalization.
+Example:
+```java
+PhantomReference<Object> phantomRef = new PhantomReference<>(new Object(), new ReferenceQueue<>());
+```
