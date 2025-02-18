@@ -25,7 +25,7 @@ Well, mainly for me, but feel free to follow along if you're also preparing for 
 On my way to becoming a **Java certified professional**! No stress, just progress.
 
 
-
+---
 
 # Java Interview Questions and Answers
 
@@ -39,11 +39,15 @@ On my way to becoming a **Java certified professional**! No stress, just progres
 - **High Performance**: Although Java is an interpreted language, it achieves high performance with Just-In-Time (JIT) compilation.
 - **Dynamic and Extensible**: Supports dynamic loading of classes and libraries.
 
+---
+
 ## 2. Explain the difference between JDK, JRE, and JVM.
 **Answer:**
 - **JDK (Java Development Kit)**: Includes the JRE along with development tools like compilers and debuggers. It is used for developing Java applications.
 - **JRE (Java Runtime Environment)**: Includes JVM and libraries required for running Java applications but does not contain development tools.
 - **JVM (Java Virtual Machine)**: A runtime environment that executes Java bytecode and enables platform independence.
+
+---
 
 ## 3. What is the difference between Java and C++?
 **Answer:**
@@ -57,12 +61,16 @@ On my way to becoming a **Java certified professional**! No stress, just progres
 | Exception Handling    | Built-in                                 | Manual                               |
 | Security              | High (sandboxing, bytecode verification) | Lower (direct memory access)         |
 
+---
+
 ## 4. What is the Java Virtual Machine (JVM)?
 **Answer:** JVM is an engine that provides a runtime environment for executing Java bytecode. It converts bytecode into machine code and ensures Java’s platform independence. It consists of:
 - **Class Loader**: Loads class files into memory.
 - **Runtime Memory Areas**: Heap, Stack, Method Area, etc.
 - **Execution Engine**: Interprets bytecode or compiles it using JIT.
 - **Garbage Collector**: Manages memory automatically by reclaiming unused objects.
+
+---
 
 ## 5. What is bytecode in Java?
 **Answer:**
@@ -76,6 +84,8 @@ public class HelloWorld {
 ```
 When compiled using `javac HelloWorld.java`, it generates `HelloWorld.class`, which contains bytecode.
 
+---
+
 ## 6. Explain the difference between `==` and `equals()` in Java.
 **Answer:**
 - `==` is used for reference comparison (i.e., whether two references point to the same memory location).
@@ -87,6 +97,7 @@ String s2 = new String("Hello");
 System.out.println(s1 == s2);       // false (different memory locations)
 System.out.println(s1.equals(s2));  // true (same content)
 ```
+---
 
 ## 7. What is a constructor in Java?
 **Answer:**
@@ -112,12 +123,14 @@ public class Main {
     }
 }
 ```
+---
 
 ## 8. What are the types of constructors in Java?
 **Answer:**
 - **Default Constructor**: No parameters, initializes default values.
 - **Parameterized Constructor**: Accepts arguments to initialize an object.
 - **Copy Constructor**: Creates a new object by copying values from another object.
+---
 
 ## 9. What is method overloading in Java?
 **Answer:**
@@ -134,6 +147,7 @@ class MathOperations {
     }
 }
 ```
+---
 
 ## 10. What is method overriding in Java?
 **Answer:**
@@ -153,6 +167,8 @@ class Child extends Parent {
     }
 }
 ```
+---
+
 
 ## 11. What is an interface in Java?
 **Answer:**
@@ -169,6 +185,7 @@ class Dog implements Animal {
     }
 }
 ```
+---
 
 ## 12. What is an abstract class in Java?
 **Answer:**
@@ -185,6 +202,8 @@ class Car extends Vehicle {
     }
 }
 ```
+---
+
 
 ## 13. What is the difference between an abstract class and an interface?
 **Answer:**
@@ -195,6 +214,8 @@ class Car extends Vehicle {
 | Variables | Can have instance variables | Only public, static, and final variables |
 | Multiple Inheritance | Not supported | Supported |
 | Constructor | Can have a constructor | Cannot have a constructor |
+
+---
 
 ## 14. What is the `final` keyword in Java?
 **Answer:**
@@ -209,6 +230,8 @@ final class Constants {
 }
 ```
 
+---
+
 ## 15. What is a static variable and a static method?
 **Answer:**
 A static variable/method belongs to the class rather than an instance of the class.
@@ -221,7 +244,7 @@ class Example {
     }
 }
 ```
-
+---
 
 ## 16. What is the `super` keyword in Java?
 **Answer:**
@@ -241,6 +264,7 @@ class Child extends Parent {
     }
 }
 ```
+---
 
 ## 17. What is the `this` keyword in Java?
 **Answer:**
@@ -254,6 +278,8 @@ class Example {
     }
 }
 ```
+---
+
 
 ## 18. What is an immutable class in Java?
 **Answer:**
@@ -270,6 +296,8 @@ final class ImmutableClass {
     }
 }
 ```
+---
+
 
 ## 19. What is garbage collection in Java?
 **Answer:**
@@ -298,6 +326,7 @@ class Example {
     }
 }
 ```
+---
 
 ## 22. What is the difference between checked and unchecked exceptions?
 **Answer:**
@@ -311,6 +340,8 @@ try {
     System.out.println("File not found!");
 }
 ```
+---
+
 
 ## 23. What is the difference between throw and throws?
 **Answer:**
@@ -324,6 +355,7 @@ void checkAge(int age) throws ArithmeticException {
     }
 }
 ```
+---
 
 ## 24. What are the different ways to create a thread in Java?
 **Answer:**
@@ -343,6 +375,8 @@ class MyRunnable implements Runnable {
     }
 }
 ```
+---
+
 
 ## 25. What is the difference between `sleep()` and `wait()` in Java?
 **Answer:**
@@ -355,6 +389,8 @@ synchronized(obj) {
     obj.notify(); // Wakes up waiting thread
 }
 ```
+---
+
 
 ## 26. What is the difference between `synchronized` and `volatile` in Java?
 **Answer:**
@@ -369,6 +405,7 @@ class SharedResource {
     }
 }
 ```
+---
 
 ## 27. What are daemon threads in Java?
 **Answer:**
@@ -391,6 +428,7 @@ public class Main {
     }
 }
 ```
+---
 
 ## 28. What is the difference between `ArrayList` and `LinkedList`?
 **Answer:**
@@ -405,6 +443,7 @@ Example:
 ```java
 List<String> list = new ArrayList<>(); // or new LinkedList<>();
 ```
+---
 
 ## 29. What is a lambda expression in Java?
 **Answer:**
@@ -423,6 +462,7 @@ public class Main {
     }
 }
 ```
+---
 
 ## 30. What is a functional interface in Java?
 **Answer:**
@@ -437,6 +477,7 @@ interface MyInterface {
     }
 }
 ```
+---
 
 ## 31. What is the Stream API in Java?
 **Answer:**
@@ -455,6 +496,8 @@ public class Main {
     }
 }
 ```
+---
+
 
 ## 32. What is the difference between `map()` and `flatMap()` in Java Streams?
 **Answer:**
@@ -468,6 +511,7 @@ List<String> result = words.stream()
                            .flatMap(Arrays::stream) // Returns Stream<String>
                            .collect(Collectors.toList());
 ```
+---
 
 ## 33. What is an Optional in Java?
 **Answer:**
@@ -477,6 +521,7 @@ Example:
 Optional<String> name = Optional.ofNullable(null);
 System.out.println(name.orElse("Default Name")); // Prints "Default Name"
 ```
+---
 
 ## 34. What is the difference between `Comparator` and `Comparable`?
 **Answer:**
@@ -492,6 +537,7 @@ class Student implements Comparable<Student> {
     public int compareTo(Student s) { return Integer.compare(this.age, s.age); }
 }
 ```
+---
 
 ## 35. What is the difference between deep copy and shallow copy?
 **Answer:**
@@ -506,6 +552,8 @@ class Example implements Cloneable {
     }
 }
 ```
+---
+
 ## 36. What is Reflection in Java?
 **Answer:**
 Reflection is a feature that allows inspection and manipulation of classes, methods, and fields at runtime.
@@ -526,6 +574,7 @@ public class ReflectionDemo {
     }
 }
 ```
+---
 
 ## 37. What is the difference between `try-with-resources` and a regular `try-catch` block?
 **Answer:**
@@ -539,6 +588,7 @@ try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
     e.printStackTrace();
 }
 ```
+---
 
 ## 38. What are the different types of memory areas allocated by JVM?
 **Answer:**
@@ -547,6 +597,8 @@ try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
 - **Stack**: Stores method calls and local variables.
 - **PC Register**: Stores the address of the currently executing instruction.
 - **Native Method Stack**: Stores native method calls.
+
+---
 
 ## 39. What is a singleton class in Java?
 **Answer:**
@@ -564,6 +616,7 @@ class Singleton {
     }
 }
 ```
+---
 
 ## 40. What is the difference between HashMap and HashTable?
 **Answer:**
@@ -577,7 +630,7 @@ Example:
 ```java
 Map<String, String> map = new HashMap<>(); // or new Hashtable<>();
 ```
-
+---
 
 ## 41. What is the difference between fail-fast and fail-safe iterators?
 **Answer:**
@@ -591,6 +644,8 @@ while (itr.hasNext()) {
     list.add(4); // Throws ConcurrentModificationException
 }
 ```
+---
+
 
 ## 42. What is the difference between deep cloning and shallow cloning in Java?
 **Answer:**
@@ -605,6 +660,7 @@ class Example implements Cloneable {
     }
 }
 ```
+---
 
 ## 43. What is a ConcurrentHashMap in Java?
 **Answer:**
@@ -614,6 +670,7 @@ Example:
 Map<String, Integer> map = new ConcurrentHashMap<>();
 map.put("A", 1);
 ```
+---
 
 ## 44. What is the purpose of the transient keyword in Java?
 **Answer:**
@@ -625,6 +682,7 @@ class Example implements Serializable {
     int normalData;
 }
 ```
+---
 
 ## 45. What is the difference between Executor and ExecutorService?
 **Answer:**
@@ -636,6 +694,7 @@ ExecutorService executor = Executors.newFixedThreadPool(2);
 executor.submit(() -> System.out.println("Task executed"));
 executor.shutdown();
 ```
+---
 
 ## 46. What is the difference between Callable and Runnable in Java?
 **Answer:**
@@ -649,6 +708,7 @@ Callable<Integer> task = () -> {
 Future<Integer> future = Executors.newSingleThreadExecutor().submit(task);
 System.out.println(future.get());
 ```
+---
 
 ## 47. What is the difference between synchronized block and synchronized method?
 **Answer:**
@@ -667,6 +727,7 @@ class Example {
     }
 }
 ```
+---
 
 ## 48. What is a ReentrantLock in Java?
 **Answer:**
@@ -681,6 +742,7 @@ try {
     lock.unlock();
 }
 ```
+---
 
 ## 49. What is the difference between wait() and notify() in Java?
 **Answer:**
@@ -693,6 +755,7 @@ synchronized (obj) {
     obj.notify(); // Wakes up waiting thread
 }
 ```
+---
 
 ## 50. What is ThreadLocal in Java?
 **Answer:**
@@ -703,6 +766,7 @@ ThreadLocal<Integer> threadLocal = new ThreadLocal<>();
 threadLocal.set(100);
 System.out.println(threadLocal.get());
 ```
+---
 
 ## 51. What is the difference between `Future` and `CompletableFuture` in Java?
 **Answer:**
@@ -714,6 +778,8 @@ CompletableFuture.supplyAsync(() -> "Hello")
     .thenApply(str -> str + " World")
     .thenAccept(System.out::println);
 ```
+---
+
 
 ## 52. What is the difference between `ForkJoinPool` and `ExecutorService`?
 **Answer:**
@@ -724,6 +790,7 @@ CompletableFuture.supplyAsync(() -> "Hello")
 ForkJoinPool pool = new ForkJoinPool();
 pool.submit(() -> System.out.println("Parallel execution"));
 ```
+---
 
 ## 53. What is the difference between `readResolve()` and `writeReplace()` in serialization?
 **Answer:**
@@ -735,6 +802,8 @@ protected Object readResolve() {
     return INSTANCE; // Ensures singleton after deserialization
 }
 ```
+---
+
 
 ## 54. What is the difference between `Stream.forEach()` and `Collection.forEach()`?
 **Answer:**
@@ -746,6 +815,7 @@ List<String> list = Arrays.asList("A", "B", "C");
 list.forEach(System.out::println); // Collection.forEach()
 list.stream().forEach(System.out::println); // Stream.forEach()
 ```
+---
 
 ## 55. What is the difference between `Predicate`, `Function`, and `Consumer` in Java?
 **Answer:**
@@ -758,6 +828,8 @@ Predicate<Integer> isEven = x -> x % 2 == 0;
 Function<Integer, String> toString = x -> "Number: " + x;
 Consumer<String> print = System.out::println;
 ```
+---
+
 ## 56. What is the difference between `peek()` and `map()` in Java Streams?
 **Answer:**
 - **`map()`**: Transforms each element and returns a new stream.
@@ -769,6 +841,8 @@ List<String> result = Stream.of("a", "b", "c")
     .map(String::toUpperCase) // Transforms elements
     .collect(Collectors.toList());
 ```
+---
+
 
 ## 57. What is the difference between `flatMap()` and `map()` in Streams?
 **Answer:**
@@ -783,6 +857,8 @@ List<String> flatList = list.stream()
     .flatMap(Collection::stream)
     .collect(Collectors.toList());
 ```
+---
+
 
 ## 58. What is an enum in Java?
 **Answer:**
@@ -794,6 +870,7 @@ enum Day {
 }
 Day today = Day.MONDAY;
 ```
+---
 
 ## 59. What is `AtomicInteger` in Java?
 **Answer:**
@@ -803,6 +880,8 @@ Example:
 AtomicInteger count = new AtomicInteger(0);
 count.incrementAndGet(); // Increments atomically
 ```
+---
+
 
 ## 60. What is the difference between `StringBuffer` and `StringBuilder`?
 **Answer:**
@@ -813,6 +892,7 @@ count.incrementAndGet(); // Increments atomically
 StringBuilder sb = new StringBuilder("Hello");
 sb.append(" World");
 ```
+---
 
 ## 61. What is the difference between `Serializable` and `Externalizable` in Java?
 **Answer:**
@@ -830,6 +910,7 @@ class Example implements Externalizable {
     }
 }
 ```
+---
 
 ## 62. What is a SoftReference in Java?
 **Answer:**
@@ -839,6 +920,7 @@ Example:
 SoftReference<String> softRef = new SoftReference<>(new String("Soft Reference"));
 System.out.println(softRef.get());
 ```
+---
 
 ## 63. What is the difference between `WeakHashMap` and `HashMap`?
 **Answer:**
@@ -851,6 +933,7 @@ Object key = new Object();
 map.put(key, "Value");
 key = null; // Key can now be garbage collected
 ```
+---
 
 ## 64. What is the difference between `LinkedHashMap` and `TreeMap`?
 **Answer:**
@@ -864,6 +947,7 @@ Map<Integer, String> map = new TreeMap<>();
 map.put(2, "B");
 map.put(1, "A");
 ```
+---
 
 ## 65. What is `PhantomReference` in Java?
 **Answer:**
@@ -872,6 +956,8 @@ Example:
 ```java
 PhantomReference<Object> phantomRef = new PhantomReference<>(new Object(), new ReferenceQueue<>());
 ```
+---
+
 ## 66. What is a `CountDownLatch` in Java?
 **Answer:**
 A `CountDownLatch` is used to make a thread wait until other threads complete a set of operations.
@@ -883,6 +969,7 @@ new Thread(() -> {
 }).start();
 latch.await(); // Main thread waits until latch reaches 0
 ```
+---
 
 ## 67. What is a `CyclicBarrier` in Java?
 **Answer:**
@@ -894,6 +981,8 @@ new Thread(() -> {
     barrier.await();
 }).start();
 ```
+---
+
 
 ## 68. What is a `Semaphore` in Java?
 **Answer:**
@@ -904,6 +993,7 @@ Semaphore semaphore = new Semaphore(2);
 semaphore.acquire(); // Acquires a permit
 semaphore.release(); // Releases a permit
 ```
+---
 
 ## 69. What is a `ReentrantReadWriteLock` in Java?
 **Answer:**
@@ -914,6 +1004,8 @@ ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 lock.readLock().lock();
 lock.readLock().unlock();
 ```
+---
+
 
 ## 70. What is a `BlockingQueue` in Java?
 **Answer:**
@@ -924,6 +1016,8 @@ BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
 queue.put(1); // Inserts element, blocking if full
 queue.take(); // Retrieves element, blocking if empty
 ```
+---
+
 ## 71. What is `ThreadPoolExecutor` in Java?
 **Answer:**
 `ThreadPoolExecutor` is a flexible implementation of the `ExecutorService` that manages a pool of worker threads.
@@ -933,6 +1027,7 @@ ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 5, 60L, TimeUnit.SECONDS
 executor.execute(() -> System.out.println("Task executed"));
 executor.shutdown();
 ```
+---
 
 ## 72. What is the difference between `ScheduledExecutorService` and `Timer` in Java?
 **Answer:**
@@ -943,6 +1038,8 @@ executor.shutdown();
 ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 scheduler.schedule(() -> System.out.println("Task executed"), 5, TimeUnit.SECONDS);
 ```
+---
+
 
 ## 73. What is the difference between `CopyOnWriteArrayList` and `ArrayList`?
 **Answer:**
@@ -953,6 +1050,7 @@ scheduler.schedule(() -> System.out.println("Task executed"), 5, TimeUnit.SECOND
 List<String> list = new CopyOnWriteArrayList<>();
 list.add("A");
 ```
+---
 
 ## 74. What is a `PriorityQueue` in Java?
 **Answer:**
@@ -965,6 +1063,7 @@ queue.add(5);
 queue.add(20);
 System.out.println(queue.poll()); // Prints 5
 ```
+---
 
 ## 75. What is a `Deque` in Java?
 **Answer:**
@@ -976,6 +1075,7 @@ deque.addFirst(1);
 deque.addLast(2);
 System.out.println(deque.pollFirst()); // Prints 1
 ```
+---
 
 ## 76. What is `LinkedBlockingQueue` in Java?
 **Answer:**
@@ -987,6 +1087,7 @@ queue.put(1);
 queue.put(2);
 System.out.println(queue.take()); // Retrieves and removes head element
 ```
+---
 
 ## 77. What is `ConcurrentLinkedQueue` in Java?
 **Answer:**
@@ -998,9 +1099,11 @@ queue.add("A");
 queue.add("B");
 System.out.println(queue.poll()); // Prints "A"
 ```
+---
 
 ## 78. What is the difference between `TreeSet` and `HashSet`?
 **Answer:**
+
 | Feature | `TreeSet` | `HashSet` |
 |---------|----------|----------|
 | Ordering | Sorted order | No specific order |
@@ -1014,6 +1117,7 @@ set.add(1);
 set.add(10);
 System.out.println(set); // Prints [1, 5, 10]
 ```
+---
 
 ## 79. What is `EnumMap` in Java?
 **Answer:**
@@ -1025,6 +1129,8 @@ Map<Day, String> map = new EnumMap<>(Day.class);
 map.put(Day.MONDAY, "Start of week");
 System.out.println(map.get(Day.MONDAY));
 ```
+---
+
 
 ## 80. What is `WeakReference` in Java?
 **Answer:**
@@ -1035,6 +1141,8 @@ WeakReference<String> weakRef = new WeakReference<>(new String("Weak Reference")
 System.gc(); // May clear the weak reference
 System.out.println(weakRef.get()); // May return null
 ```
+---
+
 ## 81. What is `IdentityHashMap` in Java?
 **Answer:**
 `IdentityHashMap` is a specialized `Map` that uses reference equality (`==`) instead of object equality (`equals()`).
@@ -1047,6 +1155,7 @@ map.put(a, "Value1");
 map.put(b, "Value2");
 System.out.println(map.size()); // Prints 2 because a != b by reference
 ```
+---
 
 ## 82. What is `LinkedHashSet` in Java?
 **Answer:**
@@ -1059,6 +1168,8 @@ set.add(1);
 set.add(2);
 System.out.println(set); // Prints [3, 1, 2]
 ```
+---
+
 
 ## 83. What is the difference between `compareTo()` and `Comparator` in Java?
 **Answer:**
@@ -1074,6 +1185,8 @@ class Student implements Comparable<Student> {
 }
 Comparator<Student> comp = (s1, s2) -> Integer.compare(s2.age, s1.age); // Reverse order
 ```
+---
+
 
 ## 84. What is `TreeMap` in Java?
 **Answer:**
@@ -1086,6 +1199,7 @@ map.put(1, "A");
 map.put(2, "B");
 System.out.println(map); // Prints {1=A, 2=B, 3=C}
 ```
+---
 
 ## 85. What is the difference between `ArrayDeque` and `LinkedList`?
 **Answer:**
@@ -1100,3 +1214,181 @@ deque.addFirst(1);
 deque.addLast(2);
 System.out.println(deque.pollFirst()); // Prints 1
 ```
+---
+
+## 86. What is the difference between `Volatile` and `Atomic` variables in Java?
+**Answer:**
+- **`volatile`**: Ensures visibility of variable updates across threads but does not provide atomicity.
+- **`Atomic` classes (`AtomicInteger`, `AtomicLong`, etc.)**: Ensure both visibility and atomicity using CAS (Compare-And-Swap).
+  Example:
+```java
+volatile int count = 0;
+AtomicInteger atomicCount = new AtomicInteger(0);
+atomicCount.incrementAndGet(); // Atomically increments
+```
+---
+
+## 87. What is a `Phaser` in Java?
+**Answer:**
+A `Phaser` is a synchronization mechanism similar to `CountDownLatch` and `CyclicBarrier` but more flexible, allowing dynamic thread registration.
+Example:
+```java
+Phaser phaser = new Phaser(1);
+phaser.register();
+phaser.arriveAndAwaitAdvance();
+```
+---
+
+## 88. What is the difference between `Iterator` and `ListIterator`?
+**Answer:**
+- **`Iterator`**: Supports forward iteration only.
+- **`ListIterator`**: Supports both forward and backward traversal.
+  Example:
+```java
+ListIterator<Integer> listIterator = list.listIterator();
+while (listIterator.hasNext()) {
+    System.out.println(listIterator.next());
+}
+```
+---
+
+## 89. What is the difference between `poll()`, `remove()`, and `peek()` in Java?
+**Answer:**
+- **`poll()`**: Retrieves and removes the head element, returning `null` if empty.
+- **`remove()`**: Retrieves and removes the head element, throwing an exception if empty.
+- **`peek()`**: Retrieves but does not remove the head element.
+  Example:
+```java
+Queue<Integer> queue = new LinkedList<>();
+queue.offer(10);
+System.out.println(queue.poll()); // Retrieves and removes 10
+System.out.println(queue.peek()); // Retrieves 10 without removing
+```
+---
+
+## 90. What is `CompletableFuture` in Java?
+**Answer:**
+`CompletableFuture` is an advanced version of `Future` that supports chaining, callbacks, and asynchronous computation.
+Example:
+```java
+CompletableFuture.supplyAsync(() -> "Hello")
+    .thenApply(str -> str + " World")
+    .thenAccept(System.out::println);
+```
+
+---
+
+## 91. What is the difference between `countDownLatch` and `CyclicBarrier`?
+**Answer:**
+- **`CountDownLatch`**: A one-time use synchronization mechanism where threads wait until the count reaches zero.
+- **`CyclicBarrier`**: A reusable barrier where a group of threads waits for each other before proceeding.
+  Example:
+```java
+CountDownLatch latch = new CountDownLatch(3);
+latch.countDown();
+latch.await();
+```
+---
+
+## 92. What is `FutureTask` in Java?
+**Answer:**
+`FutureTask` is a cancellable asynchronous computation that implements both `Runnable` and `Future`.
+Example:
+```java
+FutureTask<Integer> futureTask = new FutureTask<>(() -> 42);
+new Thread(futureTask).start();
+System.out.println(futureTask.get());
+```
+---
+
+
+## 93. What is a `Spliterator` in Java?
+**Answer:**
+A `Spliterator` is used for traversing and partitioning elements of a `Collection` for parallel processing.
+Example:
+```java
+List<String> list = Arrays.asList("one", "two", "three");
+Spliterator<String> spliterator = list.spliterator();
+spliterator.forEachRemaining(System.out::println);
+```
+---
+
+## 94. What is the difference between `ReentrantLock` and `synchronized`?
+**Answer:**
+- **`synchronized`**: Implicit lock mechanism, easy to use.
+- **`ReentrantLock`**: Explicit locking, allows try-lock, timeout, and fairness policy.
+  Example:
+```java
+ReentrantLock lock = new ReentrantLock();
+lock.lock();
+try {
+    // Critical section
+} finally {
+    lock.unlock();
+}
+```
+---
+
+## 95. What is a `ThreadLocal` variable in Java?
+**Answer:**
+A `ThreadLocal` variable provides each thread with its own copy of a variable.
+Example:
+```java
+ThreadLocal<Integer> threadLocal = ThreadLocal.withInitial(() -> 0);
+System.out.println(threadLocal.get());
+```
+---
+## 96. What is `VarHandle` in Java?
+**Answer:**
+`VarHandle` is a low-level mechanism for atomic and volatile variable operations, introduced in Java 9 as an alternative to `Unsafe`.
+Example:
+```java
+VarHandle handle = MethodHandles.lookup().findVarHandle(Example.class, "field", int.class);
+handle.set(exampleInstance, 42);
+```
+---
+
+## 97. What is the difference between `ForkJoinPool` and `ThreadPoolExecutor`?
+**Answer:**
+- **`ForkJoinPool`**: Used for recursive parallel tasks (work-stealing algorithm).
+- **`ThreadPoolExecutor`**: Used for managing a pool of worker threads for concurrent execution.
+  Example:
+```java
+ForkJoinPool pool = new ForkJoinPool();
+pool.submit(() -> System.out.println("Parallel execution"));
+```
+---
+
+## 98. What is the difference between `CompletableFuture.supplyAsync()` and `runAsync()`?
+**Answer:**
+- **`supplyAsync()`**: Returns a result (`CompletableFuture<T>`).
+- **`runAsync()`**: Does not return a result (`CompletableFuture<Void>`).
+  Example:
+```java
+CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> "Hello");
+CompletableFuture<Void> futureRun = CompletableFuture.runAsync(() -> System.out.println("Task executed"));
+```
+---
+
+
+## 99. What is `Record` in Java?
+**Answer:**
+A `Record` is a special kind of class introduced in Java 14 for immutable data storage.
+Example:
+```java
+record Person(String name, int age) {}
+Person p = new Person("Alice", 25);
+System.out.println(p.name());
+```
+---
+
+## 100. What is the `Sealed Class` feature in Java?
+**Answer:**
+A `Sealed Class` restricts which classes can extend it, introduced in Java 15.
+Example:
+```java
+sealed class Shape permits Circle, Rectangle {}
+final class Circle extends Shape {}
+final class Rectangle extends Shape {}
+```
+---
