@@ -976,3 +976,63 @@ deque.addFirst(1);
 deque.addLast(2);
 System.out.println(deque.pollFirst()); // Prints 1
 ```
+
+## 76. What is `LinkedBlockingQueue` in Java?
+**Answer:**
+`LinkedBlockingQueue` is a blocking queue backed by a linked list. It blocks threads when the queue is empty or full.
+Example:
+```java
+BlockingQueue<Integer> queue = new LinkedBlockingQueue<>(2);
+queue.put(1);
+queue.put(2);
+System.out.println(queue.take()); // Retrieves and removes head element
+```
+
+## 77. What is `ConcurrentLinkedQueue` in Java?
+**Answer:**
+`ConcurrentLinkedQueue` is a thread-safe, non-blocking queue using a lock-free algorithm.
+Example:
+```java
+Queue<String> queue = new ConcurrentLinkedQueue<>();
+queue.add("A");
+queue.add("B");
+System.out.println(queue.poll()); // Prints "A"
+```
+
+## 78. What is the difference between `TreeSet` and `HashSet`?
+**Answer:**
+| Feature | `TreeSet` | `HashSet` |
+|---------|----------|----------|
+| Ordering | Sorted order | No specific order |
+| Performance | Slower (O(log n)) | Faster (O(1) for insert/search) |
+| Implementation | Based on `TreeMap` | Based on `HashMap` |
+Example:
+```java
+Set<Integer> set = new TreeSet<>();
+set.add(5);
+set.add(1);
+set.add(10);
+System.out.println(set); // Prints [1, 5, 10]
+```
+
+## 79. What is `EnumMap` in Java?
+**Answer:**
+`EnumMap` is a specialized `Map` implementation for keys of type `enum`, offering high efficiency.
+Example:
+```java
+enum Day { MONDAY, TUESDAY, WEDNESDAY }
+Map<Day, String> map = new EnumMap<>(Day.class);
+map.put(Day.MONDAY, "Start of week");
+System.out.println(map.get(Day.MONDAY));
+```
+
+## 80. What is `WeakReference` in Java?
+**Answer:**
+A `WeakReference` allows an object to be garbage collected if no strong references exist.
+Example:
+```java
+WeakReference<String> weakRef = new WeakReference<>(new String("Weak Reference"));
+System.gc(); // May clear the weak reference
+System.out.println(weakRef.get()); // May return null
+```
+
