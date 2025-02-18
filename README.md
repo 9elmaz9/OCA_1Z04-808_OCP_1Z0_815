@@ -1035,4 +1035,68 @@ WeakReference<String> weakRef = new WeakReference<>(new String("Weak Reference")
 System.gc(); // May clear the weak reference
 System.out.println(weakRef.get()); // May return null
 ```
+## 81. What is `IdentityHashMap` in Java?
+**Answer:**
+`IdentityHashMap` is a specialized `Map` that uses reference equality (`==`) instead of object equality (`equals()`).
+Example:
+```java
+Map<String, String> map = new IdentityHashMap<>();
+String a = new String("key");
+String b = new String("key");
+map.put(a, "Value1");
+map.put(b, "Value2");
+System.out.println(map.size()); // Prints 2 because a != b by reference
+```
 
+## 82. What is `LinkedHashSet` in Java?
+**Answer:**
+`LinkedHashSet` is an ordered version of `HashSet`, maintaining insertion order.
+Example:
+```java
+Set<Integer> set = new LinkedHashSet<>();
+set.add(3);
+set.add(1);
+set.add(2);
+System.out.println(set); // Prints [3, 1, 2]
+```
+
+## 83. What is the difference between `compareTo()` and `Comparator` in Java?
+**Answer:**
+- **`compareTo()`**: Defined in `Comparable`, provides natural ordering.
+- **`Comparator`**: A separate class used for custom ordering.
+  Example:
+```java
+class Student implements Comparable<Student> {
+    int age;
+    public int compareTo(Student s) {
+        return Integer.compare(this.age, s.age);
+    }
+}
+Comparator<Student> comp = (s1, s2) -> Integer.compare(s2.age, s1.age); // Reverse order
+```
+
+## 84. What is `TreeMap` in Java?
+**Answer:**
+`TreeMap` is a sorted map implementation based on a Red-Black tree.
+Example:
+```java
+Map<Integer, String> map = new TreeMap<>();
+map.put(3, "C");
+map.put(1, "A");
+map.put(2, "B");
+System.out.println(map); // Prints {1=A, 2=B, 3=C}
+```
+
+## 85. What is the difference between `ArrayDeque` and `LinkedList`?
+**Answer:**
+| Feature | `ArrayDeque` | `LinkedList` |
+|---------|-------------|-------------|
+| Performance | Faster for stack/queue operations | Slower due to linked structure |
+| Memory | Uses a resizable array | Uses node-based structure |
+Example:
+```java
+Deque<Integer> deque = new ArrayDeque<>();
+deque.addFirst(1);
+deque.addLast(2);
+System.out.println(deque.pollFirst()); // Prints 1
+```
