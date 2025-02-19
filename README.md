@@ -1392,3 +1392,57 @@ final class Circle extends Shape {}
 final class Rectangle extends Shape {}
 ```
 ---
+## 101. What is `Pattern Matching for instanceof` in Java?
+**Answer:**
+Introduced in Java 16, this feature simplifies type checks using `instanceof` by reducing explicit casting.
+Example:
+```java
+if (obj instanceof String s) {
+    System.out.println(s.toUpperCase()); // No explicit casting needed
+}
+```
+
+## 102. What is `Text Blocks` in Java?
+**Answer:**
+A `Text Block` allows defining multiline string literals, introduced in Java 13.
+Example:
+```java
+String text = """
+    This is a text block
+    that spans multiple lines.
+""";
+```
+
+## 103. What is `Switch Expressions` in Java?
+**Answer:**
+Introduced in Java 12, `switch expressions` allow returning values and use lambda-style syntax.
+Example:
+```java
+String result = switch (day) {
+    case MONDAY, FRIDAY -> "Start or end of week";
+    case SATURDAY, SUNDAY -> "Weekend";
+    default -> "Midweek";
+};
+```
+
+## 104. What is `Vector API` in Java?
+**Answer:**
+Introduced in Java 16, `Vector API` provides support for SIMD (Single Instruction, Multiple Data) computations, improving performance for data-heavy applications.
+Example:
+```java
+VectorSpecies<Float> species = FloatVector.SPECIES_PREFERRED;
+FloatVector va = FloatVector.fromArray(species, a, 0);
+FloatVector vb = FloatVector.fromArray(species, b, 0);
+FloatVector vc = va.mul(vb);
+```
+
+## 105. What is `Foreign Function & Memory API` in Java?
+**Answer:**
+This API, introduced as an incubator feature in Java 17, allows calling native code without JNI and managing off-heap memory safely.
+Example:
+```java
+try (MemorySegment segment = MemorySegment.allocateNative(100)) {
+    segment.set(ValueLayout.JAVA_INT, 0, 42);
+    System.out.println(segment.get(ValueLayout.JAVA_INT, 0));
+}
+```
