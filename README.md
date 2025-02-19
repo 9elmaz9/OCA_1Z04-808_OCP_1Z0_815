@@ -1401,6 +1401,7 @@ if (obj instanceof String s) {
     System.out.println(s.toUpperCase()); // No explicit casting needed
 }
 ```
+---
 
 ## 102. What is `Text Blocks` in Java?
 **Answer:**
@@ -1412,6 +1413,7 @@ String text = """
     that spans multiple lines.
 """;
 ```
+---
 
 ## 103. What is `Switch Expressions` in Java?
 **Answer:**
@@ -1424,6 +1426,7 @@ String result = switch (day) {
     default -> "Midweek";
 };
 ```
+---
 
 ## 104. What is `Vector API` in Java?
 **Answer:**
@@ -1435,6 +1438,7 @@ FloatVector va = FloatVector.fromArray(species, a, 0);
 FloatVector vb = FloatVector.fromArray(species, b, 0);
 FloatVector vc = va.mul(vb);
 ```
+---
 
 ## 105. What is `Foreign Function & Memory API` in Java?
 **Answer:**
@@ -1446,6 +1450,8 @@ try (MemorySegment segment = MemorySegment.allocateNative(100)) {
     System.out.println(segment.get(ValueLayout.JAVA_INT, 0));
 }
 ```
+---
+
 ## 106. What is `Sealed Classes` in Java?
 **Answer:**
 Introduced in Java 15, `Sealed Classes` restrict which other classes can extend them.
@@ -1455,6 +1461,8 @@ sealed class Shape permits Circle, Rectangle {}
 final class Circle extends Shape {}
 final class Rectangle extends Shape {}
 ```
+---
+
 
 ## 107. What is `Records` in Java?
 **Answer:**
@@ -1465,6 +1473,8 @@ record Person(String name, int age) {}
 Person p = new Person("Alice", 25);
 System.out.println(p.name());
 ```
+---
+
 
 ## 108. What is `Hidden Classes` in Java?
 **Answer:**
@@ -1474,6 +1484,7 @@ Example:
 MethodHandles.Lookup lookup = MethodHandles.lookup();
 Class<?> hiddenClass = lookup.defineHiddenClass(bytes, true).lookupClass();
 ```
+---
 
 ## 109. What is `JEP 406: Pattern Matching for switch`?
 **Answer:**
@@ -1486,6 +1497,8 @@ String result = switch (obj) {
     default -> "Unknown type";
 };
 ```
+---
+
 
 ## 110. What is `JEP 338: Vector API (Second Incubator)`?
 **Answer:**
@@ -1497,6 +1510,8 @@ FloatVector v1 = FloatVector.fromArray(species, arr1, 0);
 FloatVector v2 = FloatVector.fromArray(species, arr2, 0);
 FloatVector result = v1.add(v2);
 ```
+---
+
 ## 111. What is `JEP 356: Enhanced Pseudo-Random Number Generators`?
 **Answer:**
 Java 17 introduced new interfaces for flexible and scalable random number generation.
@@ -1505,10 +1520,12 @@ Example:
 RandomGenerator generator = RandomGenerator.of("L128X128MixRandom");
 int randomValue = generator.nextInt();
 ```
+---
 
 ## 112. What is `JEP 382: New macOS Rendering Pipeline`?
 **Answer:**
 Java 17 introduced a new rendering pipeline for macOS using the Metal API, replacing the older OpenGL pipeline.
+---
 
 ## 113. What is `JEP 394: Pattern Matching for instanceof`?
 **Answer:**
@@ -1519,6 +1536,8 @@ if (obj instanceof String s) {
     System.out.println(s.toUpperCase());
 }
 ```
+---
+
 
 ## 114. What is `JEP 397: Sealed Classes (Finalized)`?
 **Answer:**
@@ -1529,8 +1548,10 @@ sealed class Animal permits Dog, Cat {}
 final class Dog extends Animal {}
 final class Cat extends Animal {}
 ```
+---
 
 ## 115. What is `JEP 403: Strongly Encapsulate JDK Internals`?
 **Answer:**
 Java 17 strongly encapsulated internal APIs to improve security and maintainability, requiring explicit command-line flags to access them.
 
+---
