@@ -1446,3 +1446,55 @@ try (MemorySegment segment = MemorySegment.allocateNative(100)) {
     System.out.println(segment.get(ValueLayout.JAVA_INT, 0));
 }
 ```
+## 106. What is `Sealed Classes` in Java?
+**Answer:**
+Introduced in Java 15, `Sealed Classes` restrict which other classes can extend them.
+Example:
+```java
+sealed class Shape permits Circle, Rectangle {}
+final class Circle extends Shape {}
+final class Rectangle extends Shape {}
+```
+
+## 107. What is `Records` in Java?
+**Answer:**
+A `Record` is a special kind of class introduced in Java 14 for immutable data storage.
+Example:
+```java
+record Person(String name, int age) {}
+Person p = new Person("Alice", 25);
+System.out.println(p.name());
+```
+
+## 108. What is `Hidden Classes` in Java?
+**Answer:**
+Introduced in Java 15, `Hidden Classes` allow dynamically generated classes that are not discoverable via reflection.
+Example:
+```java
+MethodHandles.Lookup lookup = MethodHandles.lookup();
+Class<?> hiddenClass = lookup.defineHiddenClass(bytes, true).lookupClass();
+```
+
+## 109. What is `JEP 406: Pattern Matching for switch`?
+**Answer:**
+Java 17 introduced pattern matching in `switch` statements, simplifying multi-type handling.
+Example:
+```java
+String result = switch (obj) {
+    case Integer i -> "Integer: " + i;
+    case String s -> "String: " + s;
+    default -> "Unknown type";
+};
+```
+
+## 110. What is `JEP 338: Vector API (Second Incubator)`?
+**Answer:**
+Java 17 continued improving the `Vector API` to enhance performance in SIMD computations.
+Example:
+```java
+VectorSpecies<Float> species = FloatVector.SPECIES_PREFERRED;
+FloatVector v1 = FloatVector.fromArray(species, arr1, 0);
+FloatVector v2 = FloatVector.fromArray(species, arr2, 0);
+FloatVector result = v1.add(v2);
+```
+
