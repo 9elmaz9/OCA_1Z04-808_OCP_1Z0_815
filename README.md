@@ -1497,4 +1497,40 @@ FloatVector v1 = FloatVector.fromArray(species, arr1, 0);
 FloatVector v2 = FloatVector.fromArray(species, arr2, 0);
 FloatVector result = v1.add(v2);
 ```
+## 111. What is `JEP 356: Enhanced Pseudo-Random Number Generators`?
+**Answer:**
+Java 17 introduced new interfaces for flexible and scalable random number generation.
+Example:
+```java
+RandomGenerator generator = RandomGenerator.of("L128X128MixRandom");
+int randomValue = generator.nextInt();
+```
+
+## 112. What is `JEP 382: New macOS Rendering Pipeline`?
+**Answer:**
+Java 17 introduced a new rendering pipeline for macOS using the Metal API, replacing the older OpenGL pipeline.
+
+## 113. What is `JEP 394: Pattern Matching for instanceof`?
+**Answer:**
+This feature, finalized in Java 16, simplifies type checks using `instanceof` by reducing explicit casting.
+Example:
+```java
+if (obj instanceof String s) {
+    System.out.println(s.toUpperCase());
+}
+```
+
+## 114. What is `JEP 397: Sealed Classes (Finalized)`?
+**Answer:**
+Java 17 finalized `Sealed Classes`, which restrict inheritance to a predefined set of subclasses.
+Example:
+```java
+sealed class Animal permits Dog, Cat {}
+final class Dog extends Animal {}
+final class Cat extends Animal {}
+```
+
+## 115. What is `JEP 403: Strongly Encapsulate JDK Internals`?
+**Answer:**
+Java 17 strongly encapsulated internal APIs to improve security and maintainability, requiring explicit command-line flags to access them.
 
