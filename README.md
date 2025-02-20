@@ -1555,3 +1555,47 @@ final class Cat extends Animal {}
 Java 17 strongly encapsulated internal APIs to improve security and maintainability, requiring explicit command-line flags to access them.
 
 ---
+## 116. What is `JEP 406: Pattern Matching for switch`?
+**Answer:**
+Introduced in Java 17, `Pattern Matching for switch` simplifies multi-type handling in `switch` statements.
+Example:
+```java
+String result = switch (obj) {
+    case Integer i -> "Integer: " + i;
+    case String s -> "String: " + s;
+    default -> "Unknown type";
+};
+```
+---
+
+## 117. What is `JEP 407: Remove RMI Activation System`?
+**Answer:**
+Java 17 removed the legacy Remote Method Invocation (RMI) Activation system to simplify maintenance.
+---
+
+## 118. What is `JEP 409: Sealed Classes`?
+**Answer:**
+Finalized in Java 17, `Sealed Classes` restrict which other classes can extend them.
+Example:
+```java
+sealed class Vehicle permits Car, Bike {}
+final class Car extends Vehicle {}
+final class Bike extends Vehicle {}
+```
+---
+
+## 119. What is `JEP 411: Deprecate Security Manager`?
+**Answer:**
+Java 17 marked the `Security Manager` for removal in a future release due to its limited modern-day usefulness and complexity.
+
+## 120. What is `JEP 412: Foreign Function & Memory API (Incubator)`?
+**Answer:**
+Introduced in Java 17 as an incubator feature, it provides safer alternatives to JNI for calling native code and managing off-heap memory.
+Example:
+```java
+try (MemorySegment segment = MemorySegment.allocateNative(100)) {
+    segment.set(ValueLayout.JAVA_INT, 0, 42);
+    System.out.println(segment.get(ValueLayout.JAVA_INT, 0));
+}
+```
+---
