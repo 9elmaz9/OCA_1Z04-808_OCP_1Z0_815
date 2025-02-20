@@ -1599,3 +1599,44 @@ try (MemorySegment segment = MemorySegment.allocateNative(100)) {
 }
 ```
 ---
+## 121. What is `JEP 414: Vector API (Second Incubator)`?
+**Answer:**
+Introduced in Java 17, `Vector API` enhances performance by utilizing SIMD (Single Instruction, Multiple Data) computations.
+Example:
+```java
+VectorSpecies<Float> species = FloatVector.SPECIES_PREFERRED;
+FloatVector v1 = FloatVector.fromArray(species, arr1, 0);
+FloatVector v2 = FloatVector.fromArray(species, arr2, 0);
+FloatVector result = v1.add(v2);
+```
+---
+
+## 122. What is `JEP 415: Context-Specific Deserialization Filters`?
+**Answer:**
+Java 17 introduced deserialization filters to enhance security by controlling how serialized objects are deserialized.
+Example:
+```java
+ObjectInputFilter.Config.setSerialFilter(filter);
+```
+---
+
+## 123. What is `JEP 416: Reimplement Core Reflection with Method Handles`?
+**Answer:**
+Java 18 reimplemented core reflection using `MethodHandles` for better performance and maintainability.
+Example:
+```java
+MethodHandles.Lookup lookup = MethodHandles.lookup();
+MethodHandle handle = lookup.findVirtual(String.class, "length", MethodType.methodType(int.class));
+```
+---
+
+
+## 124. What is `JEP 417: Vector API (Third Incubator)`?
+**Answer:**
+Java 18 continued enhancing the `Vector API` for better hardware optimization and parallel processing.
+
+## 125. What is `JEP 418: Internet-Address Resolution SPI`?
+**Answer:**
+Java 18 introduced a new service provider interface (SPI) for resolving internet addresses, replacing older `InetAddress` APIs for better flexibility.
+
+---
