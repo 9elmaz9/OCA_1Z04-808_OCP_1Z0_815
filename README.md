@@ -1486,157 +1486,56 @@ Class<?> hiddenClass = lookup.defineHiddenClass(bytes, true).lookupClass();
 ```
 ---
 
-## 109. What is `JEP 406: Pattern Matching for switch`?
+## 114. What is the difference between `Callable` and `Runnable`?
 **Answer:**
-Java 17 introduced pattern matching in `switch` statements, simplifying multi-type handling.
-Example:
+- **`Runnable`**: Does not return a result and cannot throw checked exceptions.
+- **`Callable`**: Returns a result and can throw checked exceptions.
+  Example:
 ```java
-String result = switch (obj) {
-    case Integer i -> "Integer: " + i;
-    case String s -> "String: " + s;
-    default -> "Unknown type";
-};
+Callable<Integer> task = () -> 42;
+Future<Integer> future = Executors.newSingleThreadExecutor().submit(task);
+System.out.println(future.get());
 ```
----
 
-
-## 110. What is `JEP 338: Vector API (Second Incubator)`?
+## 115. What is the difference between `sleep()` and `wait()` in Java?
 **Answer:**
-Java 17 continued improving the `Vector API` to enhance performance in SIMD computations.
-Example:
+- **`sleep()`**: Pauses execution for a specified time but does not release the lock.
+- **`wait()`**: Pauses execution until `notify()` or `notifyAll()` is called and releases the lock.
+  Example:
 ```java
-VectorSpecies<Float> species = FloatVector.SPECIES_PREFERRED;
-FloatVector v1 = FloatVector.fromArray(species, arr1, 0);
-FloatVector v2 = FloatVector.fromArray(species, arr2, 0);
-FloatVector result = v1.add(v2);
-```
----
-
-## 111. What is `JEP 356: Enhanced Pseudo-Random Number Generators`?
-**Answer:**
-Java 17 introduced new interfaces for flexible and scalable random number generation.
-Example:
-```java
-RandomGenerator generator = RandomGenerator.of("L128X128MixRandom");
-int randomValue = generator.nextInt();
-```
----
-
-## 112. What is `JEP 382: New macOS Rendering Pipeline`?
-**Answer:**
-Java 17 introduced a new rendering pipeline for macOS using the Metal API, replacing the older OpenGL pipeline.
----
-
-## 113. What is `JEP 394: Pattern Matching for instanceof`?
-**Answer:**
-This feature, finalized in Java 16, simplifies type checks using `instanceof` by reducing explicit casting.
-Example:
-```java
-if (obj instanceof String s) {
-    System.out.println(s.toUpperCase());
+synchronized(obj) {
+    obj.wait(); // Releases lock and waits
+    obj.notify(); // Wakes up waiting thread
 }
 ```
----
 
-
-## 114. What is `JEP 397: Sealed Classes (Finalized)`?
+## 116. What is the difference between `ArrayBlockingQueue` and `LinkedBlockingQueue`?
 **Answer:**
-Java 17 finalized `Sealed Classes`, which restrict inheritance to a predefined set of subclasses.
-Example:
+- **`ArrayBlockingQueue`**: Uses a fixed-size array, faster but limited in capacity.
+- **`LinkedBlockingQueue`**: Uses a linked list, allowing dynamic sizing.
+  Example:
 ```java
-sealed class Animal permits Dog, Cat {}
-final class Dog extends Animal {}
-final class Cat extends Animal {}
+BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
+queue.put(1);
+System.out.println(queue.take());
 ```
----
 
-## 115. What is `JEP 403: Strongly Encapsulate JDK Internals`?
+## 117. What is the difference between `CopyOnWriteArrayList` and `ArrayList`?
 **Answer:**
-Java 17 strongly encapsulated internal APIs to improve security and maintainability, requiring explicit command-line flags to access them.
-
----
-## 116. What is `JEP 406: Pattern Matching for switch`?
-**Answer:**
-Introduced in Java 17, `Pattern Matching for switch` simplifies multi-type handling in `switch` statements.
-Example:
+- **`CopyOnWriteArrayList`**: Thread-safe, creates a new copy on each write operation, best for read-heavy operations.
+- **`ArrayList`**: Not thread-safe, uses a single backing array.
+  Example:
 ```java
-String result = switch (obj) {
-    case Integer i -> "Integer: " + i;
-    case String s -> "String: " + s;
-    default -> "Unknown type";
-};
+List<String> list = new CopyOnWriteArrayList<>();
+list.add("A");
 ```
----
 
-## 117. What is `JEP 407: Remove RMI Activation System`?
+## 118. What is the difference between `ConcurrentHashMap` and `HashMap`?
 **Answer:**
-Java 17 removed the legacy Remote Method Invocation (RMI) Activation system to simplify maintenance.
----
-
-## 118. What is `JEP 409: Sealed Classes`?
-**Answer:**
-Finalized in Java 17, `Sealed Classes` restrict which other classes can extend them.
-Example:
+- **`ConcurrentHashMap`**: Thread-safe, uses segment-based locking.
+- **`HashMap`**: Not thread-safe, requires explicit synchronization for concurrent access.
+  Example:
 ```java
-sealed class Vehicle permits Car, Bike {}
-final class Car extends Vehicle {}
-final class Bike extends Vehicle {}
+Map<String, Integer> map = new ConcurrentHashMap<>();
+map.put("A", 1);
 ```
----
-
-## 119. What is `JEP 411: Deprecate Security Manager`?
-**Answer:**
-Java 17 marked the `Security Manager` for removal in a future release due to its limited modern-day usefulness and complexity.
-
-## 120. What is `JEP 412: Foreign Function & Memory API (Incubator)`?
-**Answer:**
-Introduced in Java 17 as an incubator feature, it provides safer alternatives to JNI for calling native code and managing off-heap memory.
-Example:
-```java
-try (MemorySegment segment = MemorySegment.allocateNative(100)) {
-    segment.set(ValueLayout.JAVA_INT, 0, 42);
-    System.out.println(segment.get(ValueLayout.JAVA_INT, 0));
-}
-```
----
-## 121. What is `JEP 414: Vector API (Second Incubator)`?
-**Answer:**
-Introduced in Java 17, `Vector API` enhances performance by utilizing SIMD (Single Instruction, Multiple Data) computations.
-Example:
-```java
-VectorSpecies<Float> species = FloatVector.SPECIES_PREFERRED;
-FloatVector v1 = FloatVector.fromArray(species, arr1, 0);
-FloatVector v2 = FloatVector.fromArray(species, arr2, 0);
-FloatVector result = v1.add(v2);
-```
----
-
-## 122. What is `JEP 415: Context-Specific Deserialization Filters`?
-**Answer:**
-Java 17 introduced deserialization filters to enhance security by controlling how serialized objects are deserialized.
-Example:
-```java
-ObjectInputFilter.Config.setSerialFilter(filter);
-```
----
-
-## 123. What is `JEP 416: Reimplement Core Reflection with Method Handles`?
-**Answer:**
-Java 18 reimplemented core reflection using `MethodHandles` for better performance and maintainability.
-Example:
-```java
-MethodHandles.Lookup lookup = MethodHandles.lookup();
-MethodHandle handle = lookup.findVirtual(String.class, "length", MethodType.methodType(int.class));
-```
----
-
-
-## 124. What is `JEP 417: Vector API (Third Incubator)`?
-**Answer:**
-Java 18 continued enhancing the `Vector API` for better hardware optimization and parallel processing.
-
-## 125. What is `JEP 418: Internet-Address Resolution SPI`?
-**Answer:**
-Java 18 introduced a new service provider interface (SPI) for resolving internet addresses, replacing older `InetAddress` APIs for better flexibility.
-
----
