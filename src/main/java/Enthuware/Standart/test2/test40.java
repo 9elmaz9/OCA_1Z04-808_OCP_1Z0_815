@@ -18,3 +18,6 @@ public class test40 {
 
 //
 //ln.equals(42);
+
+/**The concept to understand here is as follows -
+ If the compiler can figure out that something can NEVER happen, then it flags an error. In this question, the compiler knows that ln, i or d can never point to the same object in any case because they are references to different classes of objects that have no relation ( superclass/subclass ) between themselves.*/
