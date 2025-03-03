@@ -1,6 +1,6 @@
 package Enthuware.Standart.test2;
 
-public class tesr45 {
+public class test45 {
 }
 /**Given the following class, which statements can be inserted at line 1 without causing the code to fail compilation?
 
