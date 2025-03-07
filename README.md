@@ -1654,6 +1654,72 @@ BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
 queue.put(1); // Inserts element, blocking if full
 queue.take(); // Retrieves element, blocking if empty
 ```
+## 129. What is the difference between `LinkedBlockingQueue` and `ArrayBlockingQueue`?
+**Answer:**
+- **`LinkedBlockingQueue`**: Uses a linked list structure, allowing dynamic sizing and better performance for large workloads.
+- **`ArrayBlockingQueue`**: Uses a fixed-size array, providing better performance for predictable workloads.
+  Example:
+```java
+BlockingQueue<Integer> queue = new LinkedBlockingQueue<>(10);
+queue.put(1);
+System.out.println(queue.take());
+```
+
+## 130. What is `DelayQueue` in Java?
+**Answer:**
+A `DelayQueue` is a blocking queue that holds elements until their delay expires.
+Example:
+```java
+class DelayedTask implements Delayed {
+    private long startTime;
+    DelayedTask(long delay) {
+        this.startTime = System.currentTimeMillis() + delay;
+    }
+    public long getDelay(TimeUnit unit) {
+        return unit.convert(startTime - System.currentTimeMillis(), TimeUnit.MILLISECONDS);
+    }
+    public int compareTo(Delayed o) {
+        return Long.compare(this.getDelay(TimeUnit.MILLISECONDS), o.getDelay(TimeUnit.MILLISECONDS));
+    }
+}
+DelayQueue<DelayedTask> queue = new DelayQueue<>();
+queue.put(new DelayedTask(5000));
+```
+
+## 131. What is `PriorityBlockingQueue` in Java?
+**Answer:**
+A `PriorityBlockingQueue` is a thread-safe priority queue that orders elements according to their priority.
+Example:
+```java
+PriorityBlockingQueue<Integer> pq = new PriorityBlockingQueue<>();
+pq.add(10);
+pq.add(5);
+pq.add(20);
+System.out.println(pq.poll()); // Prints 5 (smallest first)
+```
+
+## 132. What is the difference between `TreeMap` and `HashMap`?
+**Answer:**
+- **`TreeMap`**: Maintains keys in sorted order (O(log n) operations).
+- **`HashMap`**: Provides fast access (O(1) operations) but does not maintain order.
+  Example:
+```java
+Map<Integer, String> map = new TreeMap<>();
+map.put(2, "B");
+map.put(1, "A");
+System.out.println(map); // {1=A, 2=B}
+```
+
+## 133. What is `CopyOnWriteArraySet` in Java?
+**Answer:**
+A `CopyOnWriteArraySet` is a thread-safe set that copies itself on modification, making it efficient for read-heavy workloads.
+Example:
+```java
+Set<String> set = new CopyOnWriteArraySet<>();
+set.add("A");
+set.add("B");
+System.out.println(set);
+```
 
 
 
