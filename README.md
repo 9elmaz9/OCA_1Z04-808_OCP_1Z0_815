@@ -1600,6 +1600,60 @@ deque.addLast(2);
 System.out.println(deque.pollFirst()); // 1
 ```
 
+## 124. What is the difference between `PriorityQueue` and `ArrayDeque`?
+**Answer:**
+- **`PriorityQueue`**: A queue that orders elements based on their priority.
+- **`ArrayDeque`**: A resizable array-based implementation of a double-ended queue (Deque).
+  Example:
+```java
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+pq.add(10);
+pq.add(5);
+pq.add(20);
+System.out.println(pq.poll()); // Prints 5 (lowest priority first)
+```
+
+## 125. What is `IdentityHashMap` in Java?
+**Answer:**
+`IdentityHashMap` is a specialized `Map` implementation that compares keys using reference equality (`==`) instead of `equals()`.
+Example:
+```java
+Map<String, String> map = new IdentityHashMap<>();
+String a = new String("key");
+String b = new String("key");
+map.put(a, "Value1");
+map.put(b, "Value2");
+System.out.println(map.size()); // Prints 2 because a != b by reference
+```
+
+## 126. What is `PhantomReference` in Java?
+**Answer:**
+A `PhantomReference` allows an object to be garbage collected but provides a callback before finalization.
+Example:
+```java
+PhantomReference<Object> phantomRef = new PhantomReference<>(new Object(), new ReferenceQueue<>());
+```
+
+## 127. What is `EnumMap` in Java?
+**Answer:**
+`EnumMap` is a specialized `Map` implementation for keys of type `enum`, offering high efficiency.
+Example:
+```java
+enum Day { MONDAY, TUESDAY, WEDNESDAY }
+Map<Day, String> map = new EnumMap<>(Day.class);
+map.put(Day.MONDAY, "Start of week");
+System.out.println(map.get(Day.MONDAY));
+```
+
+## 128. What is `BlockingQueue` in Java?
+**Answer:**
+A `BlockingQueue` is a queue that blocks threads when it is full (on insertion) or empty (on retrieval).
+Example:
+```java
+BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
+queue.put(1); // Inserts element, blocking if full
+queue.take(); // Retrieves element, blocking if empty
+```
 
 
 
