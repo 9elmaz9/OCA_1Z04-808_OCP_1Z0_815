@@ -1539,3 +1539,67 @@ list.add("A");
 Map<String, Integer> map = new ConcurrentHashMap<>();
 map.put("A", 1);
 ```
+## 119. What is the difference between `HashSet` and `TreeSet`?
+**Answer:**
+- **`HashSet`**: Uses a hash table, does not maintain order, offers O(1) time complexity for insert/search.
+- **`TreeSet`**: Uses a red-black tree, maintains sorted order, offers O(log n) time complexity.
+  Example:
+```java
+Set<Integer> set = new TreeSet<>();
+set.add(5);
+set.add(1);
+set.add(10);
+System.out.println(set); // Prints [1, 5, 10]
+```
+
+## 120. What is `LinkedHashMap` and how is it different from `HashMap`?
+**Answer:**
+- **`LinkedHashMap`**: Maintains insertion order using a doubly linked list.
+- **`HashMap`**: Does not guarantee order.
+  Example:
+```java
+Map<Integer, String> map = new LinkedHashMap<>();
+map.put(2, "B");
+map.put(1, "A");
+System.out.println(map); // Maintains insertion order
+```
+
+## 121. What is the difference between `peek()`, `poll()`, and `remove()` in Java Queues?
+**Answer:**
+- **`peek()`**: Retrieves but does not remove the head element, returns `null` if empty.
+- **`poll()`**: Retrieves and removes the head element, returns `null` if empty.
+- **`remove()`**: Retrieves and removes the head element, throws `NoSuchElementException` if empty.
+  Example:
+```java
+Queue<Integer> queue = new LinkedList<>();
+queue.offer(10);
+System.out.println(queue.peek()); // 10
+System.out.println(queue.poll()); // 10
+```
+
+## 122. What is `WeakHashMap` in Java?
+**Answer:**
+`WeakHashMap` is a map where keys are weak references and can be garbage collected when no strong references exist.
+Example:
+```java
+Map<Object, String> map = new WeakHashMap<>();
+Object key = new Object();
+map.put(key, "Value");
+key = null; // Now the entry may be garbage collected
+```
+
+## 123. What is the difference between `Deque` and `Queue`?
+**Answer:**
+- **`Queue`**: Supports FIFO (First In, First Out) operations.
+- **`Deque`**: Supports both FIFO and LIFO (Last In, First Out) operations.
+  Example:
+```java
+Deque<Integer> deque = new ArrayDeque<>();
+deque.addFirst(1);
+deque.addLast(2);
+System.out.println(deque.pollFirst()); // 1
+```
+
+
+
+
