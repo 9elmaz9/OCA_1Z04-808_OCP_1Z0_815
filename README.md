@@ -1770,6 +1770,57 @@ Example:
 ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 scheduler.schedule(() -> System.out.println("Task executed"), 5, TimeUnit.SECONDS);
 ```
+# Java Interview Questions and Answers
 
+...(предыдущие вопросы)
 
+## 139. What is `ThreadPoolExecutor` in Java?
+**Answer:**
+`ThreadPoolExecutor` is a flexible implementation of the `ExecutorService` that manages a pool of worker threads.
+Example:
+```java
+ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 5, 60L, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
+executor.execute(() -> System.out.println("Task executed"));
+executor.shutdown();
+```
+
+## 140. What is `CyclicBarrier` in Java?
+**Answer:**
+A `CyclicBarrier` allows multiple threads to wait for each other before proceeding further.
+Example:
+```java
+CyclicBarrier barrier = new CyclicBarrier(3, () -> System.out.println("All threads reached the barrier"));
+new Thread(() -> {
+    barrier.await();
+}).start();
+```
+
+## 141. What is `ReentrantReadWriteLock` in Java?
+**Answer:**
+A `ReentrantReadWriteLock` provides separate locks for read and write operations to improve performance in concurrent applications.
+Example:
+```java
+ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
+lock.readLock().lock();
+lock.readLock().unlock();
+```
+
+## 142. What is `Phaser` in Java?
+**Answer:**
+A `Phaser` is a more flexible alternative to `CountDownLatch` and `CyclicBarrier`, allowing dynamic thread registration.
+Example:
+```java
+Phaser phaser = new Phaser(1);
+phaser.register();
+phaser.arriveAndAwaitAdvance();
+```
+
+## 143. What is `ForkJoinPool` in Java?
+**Answer:**
+A `ForkJoinPool` is a special type of thread pool for parallel task execution, especially suited for recursive tasks.
+Example:
+```java
+ForkJoinPool pool = new ForkJoinPool();
+pool.submit(() -> System.out.println("Parallel execution"));
+```
 
