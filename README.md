@@ -1823,4 +1823,72 @@ Example:
 ForkJoinPool pool = new ForkJoinPool();
 pool.submit(() -> System.out.println("Parallel execution"));
 ```
+## 144. What is the difference between `invokeAll()` and `invokeAny()` in Java's `ExecutorService`?
+**Answer:**
+- **`invokeAll()`**: Executes multiple tasks and returns a list of `Future` objects, blocking until all tasks complete.
+- **`invokeAny()`**: Executes multiple tasks and returns the result of the first successfully completed task.
+  Example:
+```java
+ExecutorService executor = Executors.newFixedThreadPool(3);
+List<Callable<String>> tasks = List.of(
+    () -> "Task 1", 
+    () -> "Task 2"
+);
+String result = executor.invokeAny(tasks);
+System.out.println(result); // Prints one of the completed tasks
+```
+
+## 145. What is `StampedLock` in Java?
+**Answer:**
+A `StampedLock` is an advanced lock mechanism that improves performance by supporting optimistic and read-write locks.
+Example:
+```java
+StampedLock lock = new StampedLock();
+long stamp = lock.readLock();
+try {
+    System.out.println("Reading data");
+} finally {
+    lock.unlockRead(stamp);
+}
+```
+
+## 146. What is `ThreadLocalRandom` in Java?
+**Answer:**
+`ThreadLocalRandom` provides efficient random number generation for multi-threaded environments without contention.
+Example:
+```java
+int randomNum = ThreadLocalRandom.current().nextInt(1, 100);
+System.out.println(randomNum);
+```
+
+## 147. What is the difference between `synchronized` and `Lock` in Java?
+**Answer:**
+- **`synchronized`**: Uses implicit locks and does not support features like timeout or fairness.
+- **`Lock`**: Provides more flexibility, supporting try-lock, timeout, and fairness policies.
+  Example:
+```java
+Lock lock = new ReentrantLock();
+lock.lock();
+try {
+    System.out.println("Critical section");
+} finally {
+    lock.unlock();
+}
+```
+
+## 148. What is `Exchanger` in Java?
+**Answer:**
+An `Exchanger` is a synchronization point where two threads can exchange objects safely.
+Example:
+```java
+Exchanger<String> exchanger = new Exchanger<>();
+new Thread(() -> {
+    try {
+        String data = exchanger.exchange("Thread 1 Data");
+        System.out.println("Received: " + data);
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+}).start();
+```
 
