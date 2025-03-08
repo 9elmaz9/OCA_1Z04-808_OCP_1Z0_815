@@ -1496,6 +1496,7 @@ Callable<Integer> task = () -> 42;
 Future<Integer> future = Executors.newSingleThreadExecutor().submit(task);
 System.out.println(future.get());
 ```
+---
 
 ## 115. What is the difference between `sleep()` and `wait()` in Java?
 **Answer:**
@@ -1508,6 +1509,7 @@ synchronized(obj) {
     obj.notify(); // Wakes up waiting thread
 }
 ```
+---
 
 ## 116. What is the difference between `ArrayBlockingQueue` and `LinkedBlockingQueue`?
 **Answer:**
@@ -1519,6 +1521,7 @@ BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
 queue.put(1);
 System.out.println(queue.take());
 ```
+---
 
 ## 117. What is the difference between `CopyOnWriteArrayList` and `ArrayList`?
 **Answer:**
@@ -1539,6 +1542,8 @@ list.add("A");
 Map<String, Integer> map = new ConcurrentHashMap<>();
 map.put("A", 1);
 ```
+---
+
 ## 119. What is the difference between `HashSet` and `TreeSet`?
 **Answer:**
 - **`HashSet`**: Uses a hash table, does not maintain order, offers O(1) time complexity for insert/search.
@@ -1551,6 +1556,7 @@ set.add(1);
 set.add(10);
 System.out.println(set); // Prints [1, 5, 10]
 ```
+---
 
 ## 120. What is `LinkedHashMap` and how is it different from `HashMap`?
 **Answer:**
@@ -1563,6 +1569,7 @@ map.put(2, "B");
 map.put(1, "A");
 System.out.println(map); // Maintains insertion order
 ```
+---
 
 ## 121. What is the difference between `peek()`, `poll()`, and `remove()` in Java Queues?
 **Answer:**
@@ -1576,6 +1583,7 @@ queue.offer(10);
 System.out.println(queue.peek()); // 10
 System.out.println(queue.poll()); // 10
 ```
+---
 
 ## 122. What is `WeakHashMap` in Java?
 **Answer:**
@@ -1587,6 +1595,7 @@ Object key = new Object();
 map.put(key, "Value");
 key = null; // Now the entry may be garbage collected
 ```
+---
 
 ## 123. What is the difference between `Deque` and `Queue`?
 **Answer:**
@@ -1599,6 +1608,7 @@ deque.addFirst(1);
 deque.addLast(2);
 System.out.println(deque.pollFirst()); // 1
 ```
+---
 
 ## 124. What is the difference between `PriorityQueue` and `ArrayDeque`?
 **Answer:**
@@ -1612,6 +1622,7 @@ pq.add(5);
 pq.add(20);
 System.out.println(pq.poll()); // Prints 5 (lowest priority first)
 ```
+---
 
 ## 125. What is `IdentityHashMap` in Java?
 **Answer:**
@@ -1625,6 +1636,7 @@ map.put(a, "Value1");
 map.put(b, "Value2");
 System.out.println(map.size()); // Prints 2 because a != b by reference
 ```
+---
 
 ## 126. What is `PhantomReference` in Java?
 **Answer:**
@@ -1633,6 +1645,7 @@ Example:
 ```java
 PhantomReference<Object> phantomRef = new PhantomReference<>(new Object(), new ReferenceQueue<>());
 ```
+---
 
 ## 127. What is `EnumMap` in Java?
 **Answer:**
@@ -1644,6 +1657,8 @@ Map<Day, String> map = new EnumMap<>(Day.class);
 map.put(Day.MONDAY, "Start of week");
 System.out.println(map.get(Day.MONDAY));
 ```
+---
+
 
 ## 128. What is `BlockingQueue` in Java?
 **Answer:**
@@ -1654,6 +1669,8 @@ BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
 queue.put(1); // Inserts element, blocking if full
 queue.take(); // Retrieves element, blocking if empty
 ```
+---
+
 ## 129. What is the difference between `LinkedBlockingQueue` and `ArrayBlockingQueue`?
 **Answer:**
 - **`LinkedBlockingQueue`**: Uses a linked list structure, allowing dynamic sizing and better performance for large workloads.
@@ -1664,6 +1681,7 @@ BlockingQueue<Integer> queue = new LinkedBlockingQueue<>(10);
 queue.put(1);
 System.out.println(queue.take());
 ```
+---
 
 ## 130. What is `DelayQueue` in Java?
 **Answer:**
@@ -1685,6 +1703,7 @@ class DelayedTask implements Delayed {
 DelayQueue<DelayedTask> queue = new DelayQueue<>();
 queue.put(new DelayedTask(5000));
 ```
+---
 
 ## 131. What is `PriorityBlockingQueue` in Java?
 **Answer:**
@@ -1697,6 +1716,7 @@ pq.add(5);
 pq.add(20);
 System.out.println(pq.poll()); // Prints 5 (smallest first)
 ```
+---
 
 ## 132. What is the difference between `TreeMap` and `HashMap`?
 **Answer:**
@@ -1709,6 +1729,7 @@ map.put(2, "B");
 map.put(1, "A");
 System.out.println(map); // {1=A, 2=B}
 ```
+---
 
 ## 133. What is `CopyOnWriteArraySet` in Java?
 **Answer:**
@@ -1720,6 +1741,8 @@ set.add("A");
 set.add("B");
 System.out.println(set);
 ```
+---
+
 ## 134. What is `ConcurrentSkipListMap` in Java?
 **Answer:**
 `ConcurrentSkipListMap` is a thread-safe, sorted map that provides logarithmic time performance similar to `TreeMap`, but supports concurrent access.
@@ -1730,6 +1753,8 @@ map.put(2, "B");
 map.put(1, "A");
 System.out.println(map); // {1=A, 2=B}
 ```
+---
+
 
 ## 135. What is `Semaphore` in Java?
 **Answer:**
@@ -1740,6 +1765,7 @@ Semaphore semaphore = new Semaphore(2);
 semaphore.acquire(); // Acquires a permit
 semaphore.release(); // Releases a permit
 ```
+---
 
 ## 136. What is `CountDownLatch` in Java?
 **Answer:**
@@ -1750,6 +1776,7 @@ CountDownLatch latch = new CountDownLatch(3);
 latch.countDown();
 latch.await();
 ```
+---
 
 ## 137. What is the difference between `Executor` and `ExecutorService`?
 **Answer:**
@@ -1761,6 +1788,8 @@ ExecutorService executor = Executors.newFixedThreadPool(2);
 executor.submit(() -> System.out.println("Task executed"));
 executor.shutdown();
 ```
+---
+
 
 ## 138. What is `ScheduledExecutorService` in Java?
 **Answer:**
@@ -1772,7 +1801,7 @@ scheduler.schedule(() -> System.out.println("Task executed"), 5, TimeUnit.SECOND
 ```
 # Java Interview Questions and Answers
 
-...(предыдущие вопросы)
+---
 
 ## 139. What is `ThreadPoolExecutor` in Java?
 **Answer:**
@@ -1783,6 +1812,8 @@ ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 5, 60L, TimeUnit.SECONDS
 executor.execute(() -> System.out.println("Task executed"));
 executor.shutdown();
 ```
+---
+
 
 ## 140. What is `CyclicBarrier` in Java?
 **Answer:**
@@ -1794,6 +1825,7 @@ new Thread(() -> {
     barrier.await();
 }).start();
 ```
+---
 
 ## 141. What is `ReentrantReadWriteLock` in Java?
 **Answer:**
@@ -1804,6 +1836,7 @@ ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 lock.readLock().lock();
 lock.readLock().unlock();
 ```
+---
 
 ## 142. What is `Phaser` in Java?
 **Answer:**
@@ -1814,6 +1847,7 @@ Phaser phaser = new Phaser(1);
 phaser.register();
 phaser.arriveAndAwaitAdvance();
 ```
+---
 
 ## 143. What is `ForkJoinPool` in Java?
 **Answer:**
@@ -1823,6 +1857,8 @@ Example:
 ForkJoinPool pool = new ForkJoinPool();
 pool.submit(() -> System.out.println("Parallel execution"));
 ```
+---
+
 ## 144. What is the difference between `invokeAll()` and `invokeAny()` in Java's `ExecutorService`?
 **Answer:**
 - **`invokeAll()`**: Executes multiple tasks and returns a list of `Future` objects, blocking until all tasks complete.
@@ -1837,6 +1873,7 @@ List<Callable<String>> tasks = List.of(
 String result = executor.invokeAny(tasks);
 System.out.println(result); // Prints one of the completed tasks
 ```
+---
 
 ## 145. What is `StampedLock` in Java?
 **Answer:**
@@ -1851,6 +1888,7 @@ try {
     lock.unlockRead(stamp);
 }
 ```
+---
 
 ## 146. What is `ThreadLocalRandom` in Java?
 **Answer:**
@@ -1860,6 +1898,7 @@ Example:
 int randomNum = ThreadLocalRandom.current().nextInt(1, 100);
 System.out.println(randomNum);
 ```
+---
 
 ## 147. What is the difference between `synchronized` and `Lock` in Java?
 **Answer:**
@@ -1875,6 +1914,7 @@ try {
     lock.unlock();
 }
 ```
+---
 
 ## 148. What is `Exchanger` in Java?
 **Answer:**
@@ -1891,4 +1931,68 @@ new Thread(() -> {
     }
 }).start();
 ```
+# Java Interview Questions and Answers
+
+---
+
+## 149. What is `CyclicBarrier` in Java?
+**Answer:**
+A `CyclicBarrier` allows multiple threads to wait for each other before proceeding further. It is reusable after all threads reach the barrier.
+Example:
+```java
+CyclicBarrier barrier = new CyclicBarrier(3, () -> System.out.println("All threads reached the barrier"));
+new Thread(() -> {
+    try {
+        barrier.await();
+    } catch (InterruptedException | BrokenBarrierException e) {
+        e.printStackTrace();
+    }
+}).start();
+```
+---
+
+## 150. What is `FutureTask` in Java?
+**Answer:**
+`FutureTask` is a cancellable asynchronous computation that implements both `Runnable` and `Future`.
+Example:
+```java
+FutureTask<Integer> futureTask = new FutureTask<>(() -> 42);
+new Thread(futureTask).start();
+System.out.println(futureTask.get());
+```
+---
+
+## 151. What is `CompletableFuture` in Java?
+**Answer:**
+`CompletableFuture` extends `Future` and provides asynchronous computation chaining, exception handling, and combinators.
+Example:
+```java
+CompletableFuture.supplyAsync(() -> "Hello")
+    .thenApply(str -> str + " World")
+    .thenAccept(System.out::println);
+```
+---
+
+## 152. What is the difference between `ForkJoinPool` and `ThreadPoolExecutor`?
+**Answer:**
+- **`ForkJoinPool`**: Designed for recursive parallel tasks (work-stealing algorithm).
+- **`ThreadPoolExecutor`**: Used for managing a pool of worker threads for concurrent execution.
+  Example:
+```java
+ForkJoinPool pool = new ForkJoinPool();
+pool.submit(() -> System.out.println("Parallel execution"));
+```
+---
+
+## 153. What is `Thread.yield()` in Java?
+**Answer:**
+`Thread.yield()` allows a thread to voluntarily give up CPU time, allowing other threads to execute.
+Example:
+```java
+Thread.yield();
+```
+
+---
+
+
 
