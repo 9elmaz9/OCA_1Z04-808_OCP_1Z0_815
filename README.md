@@ -1720,6 +1720,56 @@ set.add("A");
 set.add("B");
 System.out.println(set);
 ```
+## 134. What is `ConcurrentSkipListMap` in Java?
+**Answer:**
+`ConcurrentSkipListMap` is a thread-safe, sorted map that provides logarithmic time performance similar to `TreeMap`, but supports concurrent access.
+Example:
+```java
+ConcurrentSkipListMap<Integer, String> map = new ConcurrentSkipListMap<>();
+map.put(2, "B");
+map.put(1, "A");
+System.out.println(map); // {1=A, 2=B}
+```
+
+## 135. What is `Semaphore` in Java?
+**Answer:**
+A `Semaphore` controls access to a resource by limiting the number of concurrent threads that can access it.
+Example:
+```java
+Semaphore semaphore = new Semaphore(2);
+semaphore.acquire(); // Acquires a permit
+semaphore.release(); // Releases a permit
+```
+
+## 136. What is `CountDownLatch` in Java?
+**Answer:**
+A `CountDownLatch` is a synchronization aid that allows one or more threads to wait until a set of operations in other threads completes.
+Example:
+```java
+CountDownLatch latch = new CountDownLatch(3);
+latch.countDown();
+latch.await();
+```
+
+## 137. What is the difference between `Executor` and `ExecutorService`?
+**Answer:**
+- **`Executor`**: A simple interface for executing tasks asynchronously.
+- **`ExecutorService`**: A more advanced interface that provides lifecycle management of tasks.
+  Example:
+```java
+ExecutorService executor = Executors.newFixedThreadPool(2);
+executor.submit(() -> System.out.println("Task executed"));
+executor.shutdown();
+```
+
+## 138. What is `ScheduledExecutorService` in Java?
+**Answer:**
+`ScheduledExecutorService` allows scheduling tasks with a fixed delay or at a fixed rate.
+Example:
+```java
+ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+scheduler.schedule(() -> System.out.println("Task executed"), 5, TimeUnit.SECONDS);
+```
 
 
 
