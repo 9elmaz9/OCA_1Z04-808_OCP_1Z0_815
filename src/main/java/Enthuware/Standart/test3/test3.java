@@ -1,6 +1,6 @@
 package Enthuware.Standart.test3;
 
-public class tets3 {
+public class test3 {
 }
 /** Which of the following classes have a default constructor?
  class A{  }
