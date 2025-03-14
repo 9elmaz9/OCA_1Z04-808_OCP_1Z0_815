@@ -1,6 +1,6 @@
 package Enthuware.Standart.test3;
 
-public class tets21 {
+public class test21 {
 }
 /**Given:
  class Triangle{
