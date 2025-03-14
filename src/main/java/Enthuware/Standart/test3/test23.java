@@ -33,3 +33,6 @@ always evaluates both the operands even if the result of the whole expression ca
 which means they always evaluate both the operands even if the result of the whole expression can be known by just evaluating the left operand.*/
 
 
+/**& and | do not short circuit the expression. The value of all the expressions ( 1 through 4) can be determined just by looking at the first part.
+ * && and || do not evaluate the rest of the expression if the result of the whole expression can be known by just evaluating the left operand,
+ * so method1() is not called for 2 and 4.*/
