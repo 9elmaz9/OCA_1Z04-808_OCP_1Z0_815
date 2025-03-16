@@ -1,6 +1,6 @@
 package Enthuware.Standart.test3;
 
-public class tets24 {
+public class test24 {
 }
 
 /*Consider the following code...
