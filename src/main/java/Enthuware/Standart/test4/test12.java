@@ -20,4 +20,5 @@ public class test12 {
 
 //6
 
-//In the first iteration of for loop, the while loop keeps running till c becomes 6. Now, for all next for loop iteration, the while loop never runs as the flag is false. So final value of c is 6.
+//In the first iteration of for loop, the while loop keeps running till c becomes 6.
+// Now, for all next for loop iteration, the while loop never runs as the flag is false. So final value of c is 6.
