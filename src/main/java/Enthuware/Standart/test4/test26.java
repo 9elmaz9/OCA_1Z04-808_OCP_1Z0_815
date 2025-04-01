@@ -1,6 +1,6 @@
 package Enthuware.Standart.test4;
 
-public interface test {
+public class test26 {
 }
 /**Consider the following code:
 
@@ -17,4 +17,5 @@ public interface test {
 
 //public SuperClass()
 //The default no args constructor will not be provided because SuperClass has to define one arg constructor.
+
 
