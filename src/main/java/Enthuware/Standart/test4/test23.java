@@ -1,6 +1,6 @@
 package Enthuware.Standart.test4;
 
-public class tets23 {
+public class test23 {
 }
 /**What will be printed when the following code is compiled and run?
 
