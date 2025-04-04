@@ -22,7 +22,7 @@ public class test38 {
  *
  * What can be inserted at // 1, which will make the object referred to by obj eligible for garbage collection?*/
 
-
+/**
 Consider the following code snippet:
 
 public class Test{
