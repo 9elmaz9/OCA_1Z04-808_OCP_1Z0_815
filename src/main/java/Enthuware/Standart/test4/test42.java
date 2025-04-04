@@ -9,3 +9,8 @@ public class test42 {
 /**
  abstract int t ;
  Variables can't be declared as abstract or native.*/
+
+/**static and final are valid modifiers for both member field and method declarations within a class.
+ * transient and volatile modifiers are only valid for member field declarations. abstract and native are
+ * only valid for member methods.  Note: a class declaration can have only final, abstract and public as modifiers,
+ * unless it is a nested class, in which case, it can be declared private orprotected as well. Within a method, a local variable may be declared as final. */
