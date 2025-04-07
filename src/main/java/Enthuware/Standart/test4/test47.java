@@ -8,3 +8,5 @@ public class test47 {
  *  int c = b + a;
  *  System.out.println(b = c);
  * */
+
+//1
