@@ -18,7 +18,7 @@ public class test_52 {
  *  public  void filterData(ArrayList<Data> dataList, Predicate<Data> p){
  *  Iterator<Data> i = dataList.iterator();
  *  while(i.hasNext()){
- *  if(p.test(i.next())){
+ *  if(p.test31(i.next())){
  *  i.remove();
  *  }
  *  } } ....

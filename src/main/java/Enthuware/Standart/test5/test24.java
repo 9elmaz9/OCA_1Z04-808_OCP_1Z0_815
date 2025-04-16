@@ -4,7 +4,7 @@ public class test24 {
 }
 /**
  * What, if anything, is wrong with the following code?
- * void test(int x){
+ * void test31(int x){
  * switch(x){
  * case 1:
  * case 2:

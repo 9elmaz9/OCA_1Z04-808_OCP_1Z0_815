@@ -4,12 +4,12 @@ public class test40 {
 }
 //Which of the following are correct about java.util.function.Predicate?
 
-//It is an interface that has only one abstract method (among other non-abstract methods) with the signature - public boolean test(T t);
+//It is an interface that has only one abstract method (among other non-abstract methods) with the signature - public boolean test31(T t);
 
 
 /**
  * java.util.function.Predicate is one of the several functional interfaces that have been added to Java 8.
- * This interface has exactly one abstract method named test, which takes any object as input and returns a boolean.
+ * This interface has exactly one abstract method named test31, which takes any object as input and returns a boolean.
  * This comes in very handy when you have a collection of objects and you want to go through each object of that collection and see if that object satisfies some criteria.
  * For example, you may have a collection of Employee objects and, in one place of your application, you want to remove all such employees whose age is below 50,
  * while in other place, you want to remove all such employees whose salary is above 100,000. In both the cases, you want to go through your collection of employees,
@@ -25,9 +25,9 @@ public class test40 {
  * is to eliminate the need for every application to write a customized interface.
  * For example, you can do the same thing with the Predicate interface as follows -
  * public void filterEmployees(ArrayList<Employee> dataList, Predicate<Employee> p){ Iterator<Employee> i = dataList.iterator();
- * while(i.hasNext()){ if(p.test(i.next())){ i.remove(); } } }  ...
+ * while(i.hasNext()){ if(p.test31(i.next())){ i.remove(); } } }  ...
  * // Instead of defining a MyPredicate class (like we did with MyCheckEmployee),
- * //we could also define and instantiate an anonymous inner class to reduce code clutter Predicate<Employee> p = new Predicate<Employee>(){ public boolean test(Employee e){ return e.getSalary()>100000;
+ * //we could also define and instantiate an anonymous inner class to reduce code clutter Predicate<Employee> p = new Predicate<Employee>(){ public boolean test31(Employee e){ return e.getSalary()>100000;
  * } }; ...  filterEmployees(employeeList, p);
  * Note that both the interfaces (CheckEmployee and Predicate) can be used with lambda expressions in exactly the same way.
  * Instead of creating an anonymous inner class that implements the CheckEmployee or Predicate interface, you could just do -  filterEmployees(employeeList, e->e.getSalary()>100000);

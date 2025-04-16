@@ -7,7 +7,7 @@ public class test38 {
  * Consider the following code snippet:
  *
  * public class Test{
- *   void test(){
+ *   void test31(){
  *       MyClass obj = new MyClass();
  *       obj.name = "jack";
  *       // 1 insert code here
@@ -26,7 +26,7 @@ public class test38 {
 Consider the following code snippet:
 
 public class Test{
-    void test(){
+    void test31(){
         MyClass obj = new MyClass();
         obj.name = "jack";
         // 1 insert code here

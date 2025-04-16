@@ -5,7 +5,7 @@ public class test40 {
 /**What will be result of attempting to compile the following code appearing in TestClass.java file?
  *
  *  import java.util.*;
- *  package test;
+ *  package test31;
  *  public class TestClass{
  *  public OtherClass oc = new OtherClass();
  *  }

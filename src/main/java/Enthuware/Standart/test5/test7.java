@@ -7,13 +7,13 @@ public class test7 {
  *  int value;
  *  public Data(int x){ this.value = x; }
  *  public String toString(){ return ""+value; } }
- *  class MyFilter {   public boolean test(Data d){
+ *  class MyFilter {   public boolean test31(Data d){
  *  return d.value == 0;   } }
  *  public class TestClass{
  *  public static void filterData(ArrayList<Data> dataList, MyFilter f){
  *  Iterator<Data> i = dataList.iterator();
  *  while(i.hasNext()){
- *  if(f.test(i.next())){
+ *  if(f.test31(i.next())){
  *  i.remove();
  *  }
  *  }

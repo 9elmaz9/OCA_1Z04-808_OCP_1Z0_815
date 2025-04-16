@@ -3,7 +3,7 @@ package Enthuware.Standart.eight;
 public class Test15 {
 }
 
-/**To make the variable i not visible outside the package test, you need to use the appropriate access modifiers. Let's analyze the options:
+/**To make the variable i not visible outside the package test31, you need to use the appropriate access modifiers. Let's analyze the options:
 
  Access Modifiers:
  private:
@@ -12,11 +12,11 @@ public class Test15 {
  It will not be visible outside the package or even within the package, except for the class itself.
  protected:
 
- The variable i will be accessible within the test package and to subclasses outside the package.
+ The variable i will be accessible within the test31 package and to subclasses outside the package.
  This does not restrict visibility to only the package.
  No Access Modifier (Default Access):
 
- If no access modifier is specified (also called package-private), the variable will be accessible only within the test package.
+ If no access modifier is specified (also called package-private), the variable will be accessible only within the test31 package.
  This matches the requirement.
  friend:
 
@@ -26,7 +26,7 @@ public class Test15 {
  The variable will be accessible everywhere, including outside the package. This does not meet the requirement.
  Correct Options:
  private: Restricts visibility to the Test class (more restrictive than the package).
- No access modifier: Allows visibility only within the test package.
+ No access modifier: Allows visibility only within the test31 package.
 
  Final Answer:
  private

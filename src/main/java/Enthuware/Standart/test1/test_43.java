@@ -5,7 +5,7 @@ public class test_43 {
 /**What can be inserted in the code below so that it will print true when run?
  *  public class TestClass{
  *  public static boolean checkList(List list, Predicate<List> p){
- *  return p.test(list);
+ *  return p.test31(list);
  *  }
  *  public static void main(String[] args) {
  *  boolean b = //WRITE CODE HERE
@@ -14,7 +14,7 @@ public class test_43 {
 
 
 //checkList(new ArrayList(), al -> al.isEmpty());
-/*The test method of Predicate returns a boolean.
+/*The test31 method of Predicate returns a boolean.
 So all you need for yourbody part in your lambda expression is an expression that returns a boolean. isEmpty() is a valid method of ArrayList,
  which returns true if there are no elements in the list. Therefore, al.isEmpty() constitutes a valid body for the lambda expression in this case.*/
 

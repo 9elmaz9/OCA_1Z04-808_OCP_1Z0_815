@@ -32,7 +32,7 @@ public class test12 {
  would be outside the range of the array and therefore an ArrayIndexOutOfBoundsException will be thrown, which cannot be caught by catch(MyException ) clause.
 The exception is thus thrown out of the main method and is handled by the JVM's uncaught exception handling mechanism, which prints the stack trace.*/
 
-/**Note that there are a few questions in the exam that test your knowledge about how exception messages are printed.
+/**Note that there are a few questions in the exam that test31 your knowledge about how exception messages are printed.
  * When you use System.out.println(exception), a stack trace is not printed.
  * Just the name of the exception class and the message is printed.
  * When you use exception.printStackTrace(), a complete chain of the names of the methods called, along with the line numbers, is printed.
