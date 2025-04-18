@@ -22,9 +22,7 @@ public class test35 {
  x.apply(LOGICID);
  }
  }
- What should be inserted at //1 so that Y.java can compile without any error?*
-
- /
+ What should be inserted at //1 so that Y.java can compile without any error?*/
 
 // import static com.foo.X.*;
 // This static import is required because of Y is accessing LOGICID directly without its class name ( i.e. X.LOGICID).
