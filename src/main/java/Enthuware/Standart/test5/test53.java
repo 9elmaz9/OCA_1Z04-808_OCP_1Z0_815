@@ -1,6 +1,6 @@
 package Enthuware.Standart.test5;
 
-public class test {
+public class test53 {
 }
 /**Which statements, when inserted in the code below, will cause an exception at run time?
 
