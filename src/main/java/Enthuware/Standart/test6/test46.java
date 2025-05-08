@@ -14,3 +14,7 @@ public class test46 {
  System.out.println( i + " " + j );
  }
  }*/
+
+//0 0 will be printed followed by 1 1.
+/*j will be less than 1 for only the first iteration. So, first it will print 0, 0. Next, i and j are incremented.
+Because j is not less than 1 at the start of the loop, the condition fails and it comes out of the loop. Finally, it will print 1,1.*/
