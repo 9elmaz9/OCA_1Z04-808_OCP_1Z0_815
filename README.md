@@ -27,7 +27,7 @@ On my way to becoming a **Java certified professional**! No stress, just progres
 
 ---
 
-# Java Interview Questions and Answers
+# Java  Questions and Answers
 
 ## 1. What are the main features of Java?
 **Answer:** Java has several key features:
