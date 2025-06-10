@@ -18,3 +18,8 @@ public abstract void printDetails();
 /**As per the given information, Car could be an abstract class with two methods. You need to make
  *  these two methods abstract so that concrete classes such as SUV and MiniVan will be forced
  *  to provide appropriate implementations of these methods.*/
+
+
+/**The problem statement is very ambiguous and there are multiple valid implementations.
+ *  You will need to draw clues from the options and select the best option by eliminating
+ *  options that are obviously wrong. Expect such questions in the exam.*/
