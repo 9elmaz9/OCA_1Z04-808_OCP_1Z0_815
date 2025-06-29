@@ -1,6 +1,6 @@
 package Enthuware.Standart.eight;
 
-public class еуые2 {
+public class test2 {
 }
 /**What is the result of compiling and running the following program?
  * public class Learner {
