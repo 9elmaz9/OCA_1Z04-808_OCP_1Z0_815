@@ -27,3 +27,23 @@ public class test35 {
  *  Parameters: start - The beginning index, inclusive. end - The ending index, exclusive. Returns: This object.
  * Throws: StringIndexOutOfBoundsException - if start is negative, greater than length(), or greater than end.*/
 
+/**Options for Emptying the StringBuilder:
+ sb.delete(0, sb.length());
+
+ Correct: The delete(int start, int end) method removes the characters from the StringBuilder between the specified indices. Here, 0 is the starting index, and sb.length() represents the length of the StringBuilder, effectively removing all characters from the StringBuilder.
+ This will empty the StringBuilder.
+ sb.clear();
+
+ Incorrect: The StringBuilder class does not have a clear() method. This would result in a compilation error.
+ sb.empty();
+
+ Incorrect: There is no empty() method in the StringBuilder class. This would result in a compilation error.
+ sb.removeAll();
+
+ Incorrect: The StringBuilder class does not have a removeAll() method. This would result in a compilation error.
+ sb.deleteAll();
+
+ Incorrect: There is no deleteAll() method in the StringBuilder class. This would result in a compilation error.
+ Correct Answer:
+ sb.delete(0, sb.length()); is the correct option to empty the contents of StringBuilder.
+ */
