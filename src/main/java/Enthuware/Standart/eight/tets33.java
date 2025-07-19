@@ -1,6 +1,6 @@
 package Enthuware.Standart.eight;
 
-public class tets32 {
+public class tets33 {
 }
 /**What will the following code print when run?
  *  public class TestClass {
