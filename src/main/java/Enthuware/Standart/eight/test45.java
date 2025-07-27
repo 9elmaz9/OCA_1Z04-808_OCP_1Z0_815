@@ -27,3 +27,5 @@ public class test45 {
 /**
  It will print super two
  Super will be instantiated before Two.*/
+
+/**As per JLS 12.4.1 - A class or interface type T will be initialized immediately before the first occurrence of any one of the following:  T is a class and an instance of T is created. T is a class and a static method declared by T is invoked. A static field declared by T is assigned. A static field declared by T is used and the field is not a constant variable. T is a top-level class, and an assert statement lexically nested within T is executed.  The statement One o = null; does not fall in either of the cases mentioned above. So class One is not initialized and its static block is not executed. Class Two is initialized only after its superclass Super has been initialized.*/
