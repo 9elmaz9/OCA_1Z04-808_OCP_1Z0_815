@@ -20,3 +20,10 @@ public class test45 {
  }
  }
  What will be the output when class Test is run ?*/
+
+
+//It will print super two
+
+/**
+ It will print super two
+ Super will be instantiated before Two.*/
