@@ -27,6 +27,11 @@ public class test1 {
  at TestClass.doStuff(TestClass.java:29)
  at TestClass.main(TestClass.java:41)*/
 
+/**Doing stuff...
+ Done stuff.
+ Over
+ */
+
 /**There are only two possibilities:
  *  1. If Math.random() generates a number more than 0.4, the if part will throw an exception.
  *  In this case, the remain code of doStuff will not be called and main() will receive an exception due
