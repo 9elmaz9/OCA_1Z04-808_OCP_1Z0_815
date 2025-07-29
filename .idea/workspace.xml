@@ -5,8 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75200395-3186-49fa-a32e-1fae025694f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/Test24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/Test24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/test9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/test9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +223,7 @@
       <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enthuware.Standart.eight.*" />
+          <option name="PATTERN" value="Enthuware.Standart.test8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,7 +367,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Enthuware/Standart/eight/TestClass.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Enthuware/Standart/test8/TestClass.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
