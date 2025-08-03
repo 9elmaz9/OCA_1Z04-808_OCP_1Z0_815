@@ -1,0 +1,14 @@
+package unique_test_1;
+
+public class test9 {
+}
+/**Given the following LOCs:
+ *  int rate = 10;
+ *  XXX amount = 1 - rate/100*1 - rate/100;
+ *  What can XXX be?*/
+
+//int, long, float or double
+
+/**Note that none of the terms in the expression 1 - rate/100*1 - rate/100; is double or float.
+ * They are all ints. So the result of the expression will be an int. Since an int can be assigned
+ * to a variable of type int, long, float or double, amount can be int, long, float or double.*/
