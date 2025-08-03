@@ -31,3 +31,15 @@ public class test10 {
  java.util.ArrayList<E>
    All Implemented Interfaces: Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess
     Direct Known Subclasses: AttributeList, RoleList, RoleUnresolvedList*/
+
+
+/*NOT RIGHT*/
+
+/*Standard JDK provides no subclasses of ArrayList.*/
+
+/**It does. Direct Known Subclasses: AttributeList, RoleList, RoleUnresolvedList
+ */
+
+/*ArrayList cannot resize dynamically if you add more number of elements than its capacity.*/
+/**It does resize dynamically. Compare that to an array, which cannot be resized once created. Although there is a constructor in ArrayList that allows you to limit the maximum size of the ArrayList. But it is not really a limitation of the ArrayList itself but a feature for the user.
+ */
