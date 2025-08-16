@@ -26,3 +26,8 @@ public class test30 {
  You are assigned the task of refactoring the Square class to make it better in terms of encapsulation.
  What changes will you make to this class?*/
 
+//Make the side field private and remove the area field.
+
+/**Change getArea method to:
+ *  public double getArea(){ return side*side; }*/
+
