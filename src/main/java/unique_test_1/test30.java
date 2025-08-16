@@ -31,3 +31,6 @@ public class test30 {
 /**Change getArea method to:
  *  public double getArea(){ return side*side; }*/
 
+/**There can be multiple ways to accomplish this. The exam asks you questions on the similar pattern.
+ The key is that your data variable should be private and the functionality that is to be exposed outside should be public.
+ Further, your setter methods should be coded such that they don't leave the data members inconsistent with each other.*/
