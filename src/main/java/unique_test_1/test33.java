@@ -1,0 +1,27 @@
+package unique_test_1;
+
+public class test33 {
+}
+/**Given:  public class SimpleLoop {
+ *  public static void main(String[] args) {
+ *  int i=0, j=10;
+ *  while (i<=j) {
+ *  i++;
+ *  j--;
+ *  }
+ *  System.out.println(i+" "+j);
+ *  } }
+ *  What is the result?*/
+
+//6 4
+
+/**In such type of questions, you will need to work out the values of the loop variables for every iteration (unless you can recognize the pattern) on your worksheet.
+ Beginning i=0, j=10
+ Iteration 1: i<=j is true, i becomes 1 and j becomes 9
+ Iteration 2: i<=j is true, i becomes 2 and j becomes 8
+ Iteration 3: i<=j is true, i becomes 3 and j becomes 7
+ Iteration 4: i<=j is true, i becomes 4 and j becomes 6
+ Iteration 5: i<=j is true, i becomes 5 and j becomes 5
+ Iteration 6: i<=j is true, i becomes 6 and j becomes 4
+ Iteration 7: i<=j is false so the while loop is not entered.
+ Print 6 and 4.*/
