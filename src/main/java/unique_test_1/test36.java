@@ -1,0 +1,20 @@
+package unique_test_1;
+
+public class test36 {
+}
+/**What will the following code print?
+ *  List s1 = new ArrayList( );
+ *  s1.add("a"); s1.add("b");
+ *  s1.add("c"); s1.add("a");
+ *  System.out.println(s1.remove("a")+" "+s1.remove("x"));*/
+
+//true false
+
+/**ArrayList's remove(Object ) method returns a boolean.
+ * It returns true if the element is found in the list and false otherwise.
+ * The JavaDoc API description of this method is important for the exam -  public boolean remove(Object o)
+ * Removes the first occurrence of the specified element from this list, if it is present (optional operation).
+ * If this list does not contain the element, it is unchanged. More formally, removes the element with the lowest
+ * index i such that (o==null?get(i)==null:o.equals(get(i))) (if such an element exists).
+ * Returns true if this list contained the specified element (or equivalently, if this list changed as a result of the call).  Observe that it does not remove all occurences of the element.
+ *  It removes just the first one. In this case, only the first "a" will be removed. */
