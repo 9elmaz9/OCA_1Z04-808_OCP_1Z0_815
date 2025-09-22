@@ -27,4 +27,3 @@ public class test45 {
 
 
 
-//Use ArrayIndexOutOfBoundsException for the catch argument.
