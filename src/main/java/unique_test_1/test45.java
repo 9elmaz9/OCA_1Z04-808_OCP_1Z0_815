@@ -26,3 +26,5 @@ public class test45 {
  this method will always return 10.0.*/
 
 
+
+//Use ArrayIndexOutOfBoundsException for the catch argument.
