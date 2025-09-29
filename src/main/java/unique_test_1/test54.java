@@ -1,6 +1,6 @@
 package unique_test_1;
 
-public class tets54 {
+public class test54 {
         }
 /**Given the following code:
  *  public class TestClass {
