@@ -2,3 +2,44 @@ package Extra.unique_test_2;
 
 public class test9 {
 }
+/**Consider the following
+
+ public class TestClass {
+ public static void main(String[] args) {
+ TestClass tc = new TestClass();
+ tc.myMethod();
+ }
+
+ public void myMethod() {
+ yourMethod();
+ }
+
+ public void yourMethod() {
+ throw new Exception();
+ }
+ }
+ What changes can be done to make the above code compile?*/
+
+
+//Change declaration of all the three method to include throws Exception.
+
+
+/**java.lang.Exception is a checked Exception. Which means, the method that throws this
+ * exception must declare it in the throws clause. Hence, yourMethod must declare throws Exception
+ * in its throws clause.  Now, since the call to yourMethod in myMethod can also potentially throw an exception,
+ * myMethod must also declare it in its throws clause. By the same logic, main method should also declare
+ * it in its throws clause.  Another alternative is to catch this exception in myMethod:
+ * public void myMethod(){
+ * try{
+ * yourMethod(); }catch(Exception e){ // since you are catching the exception thrown by yourMethod,
+ * //there is no need to declare it in the throws clause of myMethod. e.printStackTrace(); } }
+ * Further, since a call to myMethod cannot throw Exception anymore,
+ * //the main method does not need to declare it either.
+ * Yet another alternative is to catch the exception in the main method:   public static void main(String[] args) {
+ * TestClass tc = new TestClass();
+ * try{
+ * tc.myMethod();
+ * }
+ * catch(Exception e){// since you are catching the exception thrown by //myMethod,
+ * there is no need to declare it in the throws clause of main. e.printStackTrace();
+ * public void myMethod()throws Exception{ //Notice the throws clause here. yourMethod(); } */
